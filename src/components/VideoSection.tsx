@@ -10,7 +10,7 @@ export const VideoSection = ({ index }: VideoSectionProps) => {
   const isReversed = index % 2 === 1;
 
   return (
-    <section className="py-16 md:py-24 bg-background">
+    <section className="py-16 md:py-24 bg-primary/10">
       <div className="container mx-auto px-4">
         <div className={`grid lg:grid-cols-2 gap-12 items-center ${isReversed ? 'lg:flex-row-reverse' : ''}`}>
           {/* Content Side */}

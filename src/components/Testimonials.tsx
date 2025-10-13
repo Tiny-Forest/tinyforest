@@ -6,7 +6,7 @@ export const Testimonials = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <section className="py-16 md:py-24 bg-background">
+    <section className="py-16 md:py-24 bg-primary/10">
       <div className="container mx-auto px-4">
         <p className="text-sm text-muted-foreground mb-2 uppercase tracking-wider text-center">
           {siteConfig.testimonials.label}

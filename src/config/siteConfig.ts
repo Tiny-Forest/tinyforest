@@ -67,13 +67,13 @@ export const siteConfig = {
     {
       title: "Pure Agriculture and Organic Form",
       description: "See how Tiny Forest transforms land into thriving, sustainable forests while helping you grow your investment—step by step.",
-      videoUrl: "https://example.com/video1.mp4", // Update with your video URL
+      videoUrl: "/banner_video.mp4", // Update with your video URL
       videoThumbnail: "" // Fallback thumbnail
     },
     {
       title: "Pure Agriculture and Organic Form",
       description: "See how Tiny Forest transforms land into thriving, sustainable forests while helping you grow your investment—step by step.",
-      videoUrl: "https://example.com/video2.mp4", // Update with your video URL
+      videoUrl: "/banner_video.mp4", // Update with your video URL
       videoThumbnail: "" // Fallback thumbnail
     }
   ],
@@ -85,19 +85,19 @@ export const siteConfig = {
     reasons: [
       {
         title: "Sustainable investment in nature",
-        image: "" // Will use placeholder or generated image
+        image: "/sustainable_investment.png"
       },
       {
         title: "Expert soil and tree care",
-        image: ""
+        image: "/soil_tree.png"
       },
       {
         title: "Transparent growth tracking",
-        image: ""
+        image: "/transparent_growth.png"
       },
       {
         title: "Potential financial returns",
-        image: ""
+        image: "/potential_finance.png"
       }
     ]
   },
@@ -110,7 +110,7 @@ export const siteConfig = {
       {
         name: "Tyrese Gibson",
         role: "Businessman",
-        image: "",
+        image: "/picture.png",
         quote: "Lorem ipsum dolor sit amet consectetur. Tortor tempus cursus leo dictum elit elementum. Sagittis elit turpis dignissim venenatis. Tempor id commodo odio nunc id arcu. Fames dignissim vel eget tellus nullam vitae faucibus mauris convallis lectus mus mi commodo volutpat quis nequa. Scelerisque at in id donec ornare velit. Pharetra amet adipisci volutpat purus metus. Tortor magna non turpis ultricies purus rhoncus. Volutpat lectus pron pellentesque platea."
       }
     ]

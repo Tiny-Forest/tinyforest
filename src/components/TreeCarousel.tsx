@@ -15,7 +15,7 @@ export const TreeCarousel = () => {
   };
 
   return (
-    <section className="py-16 md:py-24 bg-muted/30">
+    <section className="py-16 md:py-24 bg-primary/10">
       <div className="container mx-auto px-4">
         <p className="text-sm text-muted-foreground mb-2 uppercase tracking-wider text-center">
           {siteConfig.trees.label}
