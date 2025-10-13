@@ -14,25 +14,26 @@ export const siteConfig = {
       line2: "Near Rockfort Temple,",
       line3: "Tiruchirappalli - 620001,",
       line4: "Tamil Nadu, India"
-    }
+    },
+    logo: "/logo.png", // Logo is now in the public folder
   },
 
   // Hero Section
   hero: {
     subtitle: "Original & Natural",
-    title: "Invest in Nature,",
-    titleHighlight: "Grow Your Wealth",
+    titleHighlight: "Invest in Nature,",
+    title: "Grow Your Wealth",
     description: "Tiny Forest buys and nurtures land, plants premium trees, and ensures sustainable growth for you.",
-    videoUrl: "https://example.com/hero-video.mp4", // Update with your video URL
-    backgroundImage: "" // Fallback if video doesn't load
+    videoUrl: "/banner_video.mp4", // Video is now in the public folder
+    backgroundImage: "Farm Land" // Fallback if video doesn't load
   },
 
   // How It Works Section
   howItWorks: {
     label: "How It Works",
     title: "Pure Agriculture and Organic Form",
-    linkText: "See how Tiny Forest transforms land into thriving, sustainable forests while helping you grow your investment—step by step.",
-    linkUrl: "#",
+    description: "See how Tiny Forest transforms land into thriving, sustainable forests while helping you grow your investment—step by step.",
+
     stats: {
       number: "100+",
       text: "Land transaction completed"
