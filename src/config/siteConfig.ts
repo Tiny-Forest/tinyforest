@@ -138,7 +138,7 @@ export const siteConfig = {
       }
     ]
   },
-
+  
   // Tree Selection
   trees: {
     label: "35+ TREES",
@@ -147,22 +147,22 @@ export const siteConfig = {
       {
         name: "Neem",
         description: "Known as the \"village pharmacy,\" neem is native to India and has medicinal properties. Its leaves, bark, and seeds are used in traditional medicine, and it is also valued for shade and soil improvement.",
-        image: ""
+        image: "/neem.png"
       },
       {
         name: "Mango",
         description: "Mango trees are tropical evergreens famous for their delicious fruit. They can grow very large and provide ample shade. Mango wood is also used in furniture and crafts.",
-        image: ""
+        image: "/mango.png"
       },
       {
         name: "Peepal",
         description: "Considered sacred in India, the peepal tree is known for its heart-shaped leaves. It is revered in religious traditions and provides a large canopy that supports local wildlife.",
-        image: ""
+        image: "/peepal.png"
       },
       {
         name: "Teak",
         description: "Teak is a hardwood tree known for its durable, water-resistant wood used in South and Southeast Asia. It is used in furniture, shipbuilding, and building.",
-        image: ""
+        image: "/teak.png"
       }
     ]
   },

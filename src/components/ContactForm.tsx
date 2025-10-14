@@ -82,7 +82,7 @@ export const ContactForm = () => {
           </div>
 
           {/* Contact Form */}
-          <form onSubmit={handleSubmit} className="space-y-4">
+            <form onSubmit={handleSubmit} className="space-y-4">
             <Input
               type="text"
               name="name"
@@ -90,7 +90,7 @@ export const ContactForm = () => {
               value={formData.name}
               onChange={handleChange}
               required
-              className="bg-muted border-0"
+              className="bg-muted-foreground/35 border-0"
             />
             <Input
               type="tel"
@@ -99,7 +99,7 @@ export const ContactForm = () => {
               value={formData.phone}
               onChange={handleChange}
               required
-              className="bg-muted border-0"
+              className="bg-muted-foreground/35 border-0"
             />
             <Input
               type="email"
@@ -108,7 +108,7 @@ export const ContactForm = () => {
               value={formData.email}
               onChange={handleChange}
               required
-              className="bg-muted border-0"
+              className="bg-muted-foreground/35 border-0"
             />
             <Textarea
               name="message"
@@ -117,15 +117,15 @@ export const ContactForm = () => {
               onChange={handleChange}
               required
               rows={6}
-              className="bg-muted border-0 resize-none"
+              className="bg-muted-foreground/35 border-0 resize-none"
             />
             <Button 
               type="submit"
-              className="bg-accent hover:bg-accent/90 text-foreground font-semibold"
+              className="bg-accent/100 hover:bg-accent/90 text-foreground font-semibold"
             >
               {siteConfig.contact.submitButton}
             </Button>
-          </form>
+            </form>
         </div>
       </div>
     </section>
