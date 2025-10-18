@@ -8,6 +8,7 @@ export const siteConfig = {
     tagline: "Invest in Nature, Grow Your Wealth",
     description: "Tiny Forest buys and nurtures land, plants premium trees, and ensures sustainable growth for you.",
     phone: ["+880123456789", "+880987654321"],
+    whatsappUrl: "https://wa.me/880123456789",
     email: "needhelp@company.com",
     address: {
       line1: "No 12 MG Road,",
@@ -24,8 +25,8 @@ export const siteConfig = {
     titleHighlight: "Invest in Nature,",
     title: "Grow Your Wealth",
     description: "Tiny Forest buys and nurtures land, plants premium trees, and ensures sustainable growth for you.",
-    videoUrl: "/banner_video.mp4", // Video is now in the public folder
-    backgroundImage: "Farm Land" // Fallback if video doesn't load
+    videoUrl: "/banner_video.mp4",
+    backgroundImage: "Farm Land"
   },
 
   // How It Works Section

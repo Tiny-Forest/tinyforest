@@ -32,6 +32,7 @@ export const HowItWorks = () => {
                 className="h-full w-full rounded-xl object-cover"
               />
             </div>
+            <div className="relative fill-black w-100 h-100 bg-primary inset-0 rounded-xl ring-1 ring-inset ring-black/10"></div>
 
             {/* Stats Badge */}
             <div className="pointer-events-none absolute bottom-3 left-3 select-none rounded-lg bg-primary px-4 py-3 text-white shadow-xl sm:bottom-4 sm:left-4 sm:px-5 sm:py-3.5 md:bottom-6 md:left-6 md:px-6 md:py-4 lg:bottom-8 lg:left-8">

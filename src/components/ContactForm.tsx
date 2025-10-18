@@ -82,7 +82,7 @@ export const ContactForm = () => {
           </div>
 
           {/* Contact Form */}
-            <form onSubmit={handleSubmit} className="space-y-4">
+            <form onSubmit={handleSubmit} className="space-y-11">
             <Input
               type="text"
               name="name"

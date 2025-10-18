@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { Trees } from "lucide-react";
 import { siteConfig } from "@/config/siteConfig";
 
 export const CTABanner = () => {
@@ -8,8 +7,12 @@ export const CTABanner = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-4">
-            <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center flex-shrink-0">
-              <Trees className="w-6 h-6 text-white" />
+            <div className="w-12 h-12  flex items-center justify-center flex-shrink-0">
+              <img
+src="/cta_banner_icon.png"
+alt="CTA Banner Icon"
+className="h-full w-full rounded-xl object-cover"
+/>
             </div>
             <h2 className="text-2xl md:text-3xl font-script text-foreground">
               {siteConfig.ctaBanner.text}
