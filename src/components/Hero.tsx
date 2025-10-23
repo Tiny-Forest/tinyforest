@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { siteConfig } from "@/config/siteConfig";
-import { Trees } from "lucide-react";
 
 export const Hero = () => {
   return (
@@ -58,7 +57,7 @@ export const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 container px-1 text-left ml-3 md:ml-36 text-white">
-        <p className="text-sm md:text-base tracking-wide font-light">
+        <p className="text-sm md:text-base tracking-wide -font-livvic-regular">
           {siteConfig.hero.subtitle}
         </p>
         <img

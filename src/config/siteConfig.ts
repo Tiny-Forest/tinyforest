@@ -112,7 +112,19 @@ export const siteConfig = {
         name: "Tyrese Gibson",
         role: "Businessman",
         image: "/picture.png",
-        quote: "Lorem ipsum dolor sit amet consectetur. Tortor tempus cursus leo dictum elit elementum. Sagittis elit turpis dignissim venenatis. Tempor id commodo odio nunc id arcu. Fames dignissim vel eget tellus nullam vitae faucibus mauris convallis lectus mus mi commodo volutpat quis nequa. Scelerisque at in id donec ornare velit. Pharetra amet adipisci volutpat purus metus. Tortor magna non turpis ultricies purus rhoncus. Volutpat lectus pron pellentesque platea."
+        quote: "I love this place very much"
+      },
+      {
+        name: "Tyrese Gibson",
+        role: "Doctor",
+        image: "/mango.png",
+        quote: "best place to live"
+      },
+      {
+        name: "Tyrese Gibson",
+        role: "Scientist",
+        image: "/neem.png",
+        quote: "They are giving quality of water, land and air"
       }
     ]
   },
@@ -148,22 +160,73 @@ export const siteConfig = {
       {
         name: "Neem",
         description: "Known as the \"village pharmacy,\" neem is native to India and has medicinal properties. Its leaves, bark, and seeds are used in traditional medicine, and it is also valued for shade and soil improvement.",
+        extra:"Extra information",
         image: "/neem.png"
       },
       {
         name: "Mango",
         description: "Mango trees are tropical evergreens famous for their delicious fruit. They can grow very large and provide ample shade. Mango wood is also used in furniture and crafts.",
+         extra:"Extra information",
         image: "/mango.png"
       },
       {
         name: "Peepal",
         description: "Considered sacred in India, the peepal tree is known for its heart-shaped leaves. It is revered in religious traditions and provides a large canopy that supports local wildlife.",
+         extra:"Extra information",
         image: "/peepal.png"
       },
       {
         name: "Teak",
         description: "Teak is a hardwood tree known for its durable, water-resistant wood used in South and Southeast Asia. It is used in furniture, shipbuilding, and building.",
+         extra:"Extra information",
         image: "/teak.png"
+      },
+      {
+        name: "Neem",
+        description: "Known as the \"village pharmacy,\" neem is native to India and has medicinal properties. Its leaves, bark, and seeds are used in traditional medicine, and it is also valued for shade and soil improvement.",
+        extra:"Extra information",
+        image: "/neem.png"
+      },
+      {
+        name: "Neem",
+        description: "Known as the \"village pharmacy,\" neem is native to India and has medicinal properties. Its leaves, bark, and seeds are used in traditional medicine, and it is also valued for shade and soil improvement.",
+        extra:"Extra information",
+        image: "/neem.png"
+      },{
+        name: "Neem",
+        description: "Known as the \"village pharmacy,\" neem is native to India and has medicinal properties. Its leaves, bark, and seeds are used in traditional medicine, and it is also valued for shade and soil improvement.",
+        extra:"Extra information",
+        image: "/neem.png"
+      },
+      {
+        name: "Neem",
+        description: "Known as the \"village pharmacy,\" neem is native to India and has medicinal properties. Its leaves, bark, and seeds are used in traditional medicine, and it is also valued for shade and soil improvement.",
+        extra:"Extra information",
+        image: "/neem.png"
+      },
+      {
+        name: "Neem",
+        description: "Known as the \"village pharmacy,\" neem is native to India and has medicinal properties. Its leaves, bark, and seeds are used in traditional medicine, and it is also valued for shade and soil improvement.",
+        extra:"Extra information",
+        image: "/neem.png"
+      },
+      {
+        name: "Neem",
+        description: "Known as the \"village pharmacy,\" neem is native to India and has medicinal properties. Its leaves, bark, and seeds are used in traditional medicine, and it is also valued for shade and soil improvement.",
+        extra:"Extra information",
+        image: "/neem.png"
+      },
+      {
+        name: "Neem",
+        description: "Known as the \"village pharmacy,\" neem is native to India and has medicinal properties. Its leaves, bark, and seeds are used in traditional medicine, and it is also valued for shade and soil improvement.",
+        extra:"Extra information",
+        image: "/neem.png"
+      },
+      {
+        name: "Neem",
+        description: "Known as the \"village pharmacy,\" neem is native to India and has medicinal properties. Its leaves, bark, and seeds are used in traditional medicine, and it is also valued for shade and soil improvement.",
+        extra:"Extra information",
+        image: "/neem.png"
       }
     ]
   },

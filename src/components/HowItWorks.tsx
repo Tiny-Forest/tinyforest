@@ -24,15 +24,20 @@ export const HowItWorks = () => {
           {/* Image Side */}
           <div className="relative">
             {/* Image wrapper keeps a nice, responsive aspect ratio across breakpoints */}
-            <div className="aspect-square sm:aspect-[4/3] lg:aspect-[5/5] overflow-hidden rounded-xl bg-primary/5 shadow-sm">
+            <div className=" sm:aspect-[3/2] lg:aspect-[5/5] overflow-hidden rounded-xl bg-primary/5 shadow-sm">
               <img
                 src="/how-it-works.png"
                 alt="Native tree planting at Tiny Forest"
                 loading="lazy"
-                className="h-full w-full rounded-xl object-cover"
+                className="h-full w-full rounded-xl object-cover -right-10"
               />
             </div>
-            <div className="relative fill-black w-100 h-100 bg-primary inset-0 rounded-xl ring-1 ring-inset ring-black/10"></div>
+          {/* Decorative green rectangle that extends to the right edge of the viewport */}
+          <div
+            aria-hidden="true"
+            className="absolute -top-20 right-40 md:-top-20 md:right-40 bottom-0 -z-10 rounded-l-xl bg-emerald-950 shadow-lg pointer-events-none"
+            style={{ width: "40vw", height: "70vh" }}
+          />
 
             {/* Stats Badge */}
             <div className="pointer-events-none absolute bottom-3 left-3 select-none rounded-lg bg-primary px-4 py-3 text-white shadow-xl sm:bottom-4 sm:left-4 sm:px-5 sm:py-3.5 md:bottom-6 md:left-6 md:px-6 md:py-4 lg:bottom-8 lg:left-8">
