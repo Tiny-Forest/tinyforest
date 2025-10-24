@@ -1,73 +1,66 @@
-# Welcome to your Lovable project
+# Tiny Forest — Pixel Perfect Showcase
 
-## Project info
+## Overview
+Tiny Forest is a frontend application scaffolded for rapid development and deployment. This repository contains the source code, configuration, and instructions to run, build, and publish the project.
 
-**URL**: https://lovable.dev/projects/ff756075-aa9d-47be-87fb-dbb85c651fc3
-
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/ff756075-aa9d-47be-87fb-dbb85c651fc3) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
+## Technologies
 - Vite
 - TypeScript
 - React
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
+## Prerequisites
+- Node.js (use nvm to manage versions) — https://github.com/nvm-sh/nvm#installing-and-updating
+- npm (bundled with Node.js)
 
-Simply open [Lovable](https://lovable.dev/projects/ff756075-aa9d-47be-87fb-dbb85c651fc3) and click on Share -> Publish.
+## Local development
+1. Clone the repository:
+```sh
+git clone <YOUR_GIT_URL>
+cd <YOUR_PROJECT_NAME>
+```
+2. Install dependencies:
+```sh
+npm install
+```
+3. Start the dev server:
+```sh
+npm run dev
+```
+4. Build for production:
+```sh
+npm run build
+```
+5. Preview a production build locally:
+```sh
+npm run preview
+```
 
-## Can I connect a custom domain to my Lovable project?
+## Editing and collaboration
+- Local IDE: Open the cloned repo in your preferred editor, make changes, and push to the remote.
+- GitHub: Fork or branch the repository, open pull requests with clear descriptions and testing notes.
+- Codespaces: Optionally launch a Codespace from the repository to develop in a cloud environment.
 
-Yes, you can!
+## Deployment
+To prepare a production build:
+```sh
+npm run build
+```
+The output directory (typically `dist`) can be deployed to any static hosting provider. Common options:
+- Vercel / Netlify: Connect your Git repository, set the build command to `npm run build`, and set the publish directory to the build output (e.g., `dist`).
+- GitHub Pages: Build the site and publish the static output via the `gh-pages` branch or an Actions workflow.
+- Custom servers: Serve the static files from your preferred web server or CDN.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+For custom domain configuration, follow your hosting provider's documentation for adding DNS records and configuring the site.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## Contributing
+- Fork or branch the repository for feature work.
+- Open pull requests with a clear description, screenshots (if applicable), and testing notes.
+- Follow the existing code style and commit conventions.
+
+## Support
+For questions about this project, open an issue in the repository or contact the project maintainer.
+
+## License
+Specify your project's license here (e.g., MIT). Update this file to reflect the correct license and copyright information.

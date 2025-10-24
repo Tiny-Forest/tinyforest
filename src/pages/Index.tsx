@@ -12,9 +12,8 @@ import { Footer } from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen">
-      <Header />
-      <main className="pt-16">
+    <div>
+      <main>
         <Hero />
         <HowItWorks />
         <VideoSection index={0} />

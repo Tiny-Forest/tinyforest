@@ -8,31 +8,33 @@ export const siteConfig = {
     tagline: "Invest in Nature, Grow Your Wealth",
     description: "Tiny Forest buys and nurtures land, plants premium trees, and ensures sustainable growth for you.",
     phone: ["+880123456789", "+880987654321"],
+    whatsappUrl: "https://wa.me/880123456789",
     email: "needhelp@company.com",
     address: {
       line1: "No 12 MG Road,",
       line2: "Near Rockfort Temple,",
       line3: "Tiruchirappalli - 620001,",
       line4: "Tamil Nadu, India"
-    }
+    },
+    logo: "/logo.png", // Logo is now in the public folder
   },
 
   // Hero Section
   hero: {
     subtitle: "Original & Natural",
-    title: "Invest in Nature,",
-    titleHighlight: "Grow Your Wealth",
+    titleHighlight: "Invest in Nature,",
+    title: "Grow Your Wealth",
     description: "Tiny Forest buys and nurtures land, plants premium trees, and ensures sustainable growth for you.",
-    videoUrl: "https://example.com/hero-video.mp4", // Update with your video URL
-    backgroundImage: "" // Fallback if video doesn't load
+    videoUrl: "/banner_video.mp4",
+    backgroundImage: "Farm Land"
   },
 
   // How It Works Section
   howItWorks: {
     label: "How It Works",
     title: "Pure Agriculture and Organic Form",
-    linkText: "See how Tiny Forest transforms land into thriving, sustainable forests while helping you grow your investment—step by step.",
-    linkUrl: "#",
+    description: "See how Tiny Forest transforms land into thriving, sustainable forests while helping you grow your investment—step by step.",
+
     stats: {
       number: "100+",
       text: "Land transaction completed"
@@ -66,13 +68,13 @@ export const siteConfig = {
     {
       title: "Pure Agriculture and Organic Form",
       description: "See how Tiny Forest transforms land into thriving, sustainable forests while helping you grow your investment—step by step.",
-      videoUrl: "https://example.com/video1.mp4", // Update with your video URL
+      videoUrl: "/banner_video.mp4", // Update with your video URL
       videoThumbnail: "" // Fallback thumbnail
     },
     {
       title: "Pure Agriculture and Organic Form",
       description: "See how Tiny Forest transforms land into thriving, sustainable forests while helping you grow your investment—step by step.",
-      videoUrl: "https://example.com/video2.mp4", // Update with your video URL
+      videoUrl: "/banner_video.mp4", // Update with your video URL
       videoThumbnail: "" // Fallback thumbnail
     }
   ],
@@ -84,19 +86,19 @@ export const siteConfig = {
     reasons: [
       {
         title: "Sustainable investment in nature",
-        image: "" // Will use placeholder or generated image
+        image: "/sustainable_investment.png"
       },
       {
         title: "Expert soil and tree care",
-        image: ""
+        image: "/soil_tree.png"
       },
       {
         title: "Transparent growth tracking",
-        image: ""
+        image: "/transparent_growth.png"
       },
       {
         title: "Potential financial returns",
-        image: ""
+        image: "/potential_finance.png"
       }
     ]
   },
@@ -109,8 +111,20 @@ export const siteConfig = {
       {
         name: "Tyrese Gibson",
         role: "Businessman",
-        image: "",
-        quote: "Lorem ipsum dolor sit amet consectetur. Tortor tempus cursus leo dictum elit elementum. Sagittis elit turpis dignissim venenatis. Tempor id commodo odio nunc id arcu. Fames dignissim vel eget tellus nullam vitae faucibus mauris convallis lectus mus mi commodo volutpat quis nequa. Scelerisque at in id donec ornare velit. Pharetra amet adipisci volutpat purus metus. Tortor magna non turpis ultricies purus rhoncus. Volutpat lectus pron pellentesque platea."
+        image: "/picture.png",
+        quote: "I love this place very much"
+      },
+      {
+        name: "Tyrese Gibson",
+        role: "Doctor",
+        image: "/mango.png",
+        quote: "best place to live"
+      },
+      {
+        name: "Tyrese Gibson",
+        role: "Scientist",
+        image: "/neem.png",
+        quote: "They are giving quality of water, land and air"
       }
     ]
   },
@@ -137,7 +151,7 @@ export const siteConfig = {
       }
     ]
   },
-
+  
   // Tree Selection
   trees: {
     label: "35+ TREES",
@@ -146,22 +160,73 @@ export const siteConfig = {
       {
         name: "Neem",
         description: "Known as the \"village pharmacy,\" neem is native to India and has medicinal properties. Its leaves, bark, and seeds are used in traditional medicine, and it is also valued for shade and soil improvement.",
-        image: ""
+        extra:"Extra information",
+        image: "/neem.png"
       },
       {
         name: "Mango",
         description: "Mango trees are tropical evergreens famous for their delicious fruit. They can grow very large and provide ample shade. Mango wood is also used in furniture and crafts.",
-        image: ""
+         extra:"Extra information",
+        image: "/mango.png"
       },
       {
         name: "Peepal",
         description: "Considered sacred in India, the peepal tree is known for its heart-shaped leaves. It is revered in religious traditions and provides a large canopy that supports local wildlife.",
-        image: ""
+         extra:"Extra information",
+        image: "/peepal.png"
       },
       {
         name: "Teak",
         description: "Teak is a hardwood tree known for its durable, water-resistant wood used in South and Southeast Asia. It is used in furniture, shipbuilding, and building.",
-        image: ""
+         extra:"Extra information",
+        image: "/teak.png"
+      },
+      {
+        name: "Neem",
+        description: "Known as the \"village pharmacy,\" neem is native to India and has medicinal properties. Its leaves, bark, and seeds are used in traditional medicine, and it is also valued for shade and soil improvement.",
+        extra:"Extra information",
+        image: "/neem.png"
+      },
+      {
+        name: "Neem",
+        description: "Known as the \"village pharmacy,\" neem is native to India and has medicinal properties. Its leaves, bark, and seeds are used in traditional medicine, and it is also valued for shade and soil improvement.",
+        extra:"Extra information",
+        image: "/neem.png"
+      },{
+        name: "Neem",
+        description: "Known as the \"village pharmacy,\" neem is native to India and has medicinal properties. Its leaves, bark, and seeds are used in traditional medicine, and it is also valued for shade and soil improvement.",
+        extra:"Extra information",
+        image: "/neem.png"
+      },
+      {
+        name: "Neem",
+        description: "Known as the \"village pharmacy,\" neem is native to India and has medicinal properties. Its leaves, bark, and seeds are used in traditional medicine, and it is also valued for shade and soil improvement.",
+        extra:"Extra information",
+        image: "/neem.png"
+      },
+      {
+        name: "Neem",
+        description: "Known as the \"village pharmacy,\" neem is native to India and has medicinal properties. Its leaves, bark, and seeds are used in traditional medicine, and it is also valued for shade and soil improvement.",
+        extra:"Extra information",
+        image: "/neem.png"
+      },
+      {
+        name: "Neem",
+        description: "Known as the \"village pharmacy,\" neem is native to India and has medicinal properties. Its leaves, bark, and seeds are used in traditional medicine, and it is also valued for shade and soil improvement.",
+        extra:"Extra information",
+        image: "/neem.png"
+      },
+      {
+        name: "Neem",
+        description: "Known as the \"village pharmacy,\" neem is native to India and has medicinal properties. Its leaves, bark, and seeds are used in traditional medicine, and it is also valued for shade and soil improvement.",
+        extra:"Extra information",
+        image: "/neem.png"
+      },
+      {
+        name: "Neem",
+        description: "Known as the \"village pharmacy,\" neem is native to India and has medicinal properties. Its leaves, bark, and seeds are used in traditional medicine, and it is also valued for shade and soil improvement.",
+        extra:"Extra information",
+        image: "/neem.png"
       }
     ]
   },

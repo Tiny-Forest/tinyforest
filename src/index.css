@@ -6,6 +6,16 @@
 All colors MUST be HSL.
 */
 
+@font-face {
+  font-family: Livvic;
+  src: url("./assets/fonts/Livvic/Livvic-Regular.ttf");
+}
+
+:root {
+  --font-livvic-regular: Livvic, "sans-serif";
+}
+
+
 @layer base {
   :root {
     --background: 40 12% 95%;
@@ -99,6 +109,7 @@ All colors MUST be HSL.
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+    -webkit-font-feature-settings: var(--forest-green);
   }
 }
 
