@@ -6,7 +6,7 @@ type TestimonialsProps = {
   interval?: number; // milliseconds
 };
 
-export const Testimonials: React.FC<TestimonialsProps> = ({ interval = 5000 }) => {
+export const Testimonials: React.FC<TestimonialsProps> = ({ interval = 3000 }) => {
   const items = siteConfig.testimonials.items;
   const [activeIndex, setActiveIndex] = useState(0);
   const [paused, setPaused] = useState(false);
