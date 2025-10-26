@@ -31,8 +31,8 @@ export const siteConfig = {
 
   // How It Works Section
   howItWorks: {
-    label: "How It Works",
-    title: "Pure Agriculture and Organic Form",
+    label: "About Us",
+    title: "Tiny Forest is a meticulously planned eco-community",
     description: "See how Tiny Forest transforms land into thriving, sustainable forests while helping you grow your investment—step by step.",
 
     stats: {
@@ -42,23 +42,23 @@ export const siteConfig = {
     steps: [
       {
         icon: "CircleDot",
-        title: "Acquire Land:",
-        description: "Partnering with farmers across India."
+        title: "Sustainable Eco-Community:",
+        description: "Its vision is to establish a Sustainable Agroforestry Community dedicated to fostering ecological balance, health, and a high quality of life for its residents."
       },
       {
         icon: "Trees",
-        title: "Plant Trees:",
-        description: "Hand-picked trees from multiple states."
+        title: "Vision and Focus:",
+        description: " Its vision is to establish a Sustainable Agroforestry Community dedicated to fostering ecological balance, health, and a high quality of life for its residents."
       },
       {
         icon: "Droplets",
-        title: "Care & Nurture:",
-        description: "Drip irrigation, soil improvement, fencing & security."
+        title: "Health and Wellness Objective:",
+        description: " A core objective is to promote health and wellness by producing safe, chemical-free food and cultivating an environment that supports disease-free, healthy living."
       },
       {
         icon: "TrendingUp",
-        title: "Grow & Earn:",
-        description: "Trees mature, property value increases, you profit."
+        title: "Grow & Scale and Layout:",
+        description: "The project offers a meticulously planned environment across 7 Acres with 27 Plots, providing endless greenery and a lifestyle specifically designed to be free from overcrowding."
       }
     ]
   },
@@ -66,15 +66,15 @@ export const siteConfig = {
   // Video Sections
   videoSections: [
     {
-      title: "Pure Agriculture and Organic Form",
+      title: "Tiny Forest - Panjapur ",
       description: "See how Tiny Forest transforms land into thriving, sustainable forests while helping you grow your investment—step by step.",
-      videoUrl: "/banner_video.mp4", // Update with your video URL
+      videoUrl: "/Panja.mp4", // Update with your video URL
       videoThumbnail: "" // Fallback thumbnail
     },
     {
-      title: "Pure Agriculture and Organic Form",
+      title: "Tiny Forest - Archampatti",
       description: "See how Tiny Forest transforms land into thriving, sustainable forests while helping you grow your investment—step by step.",
-      videoUrl: "/banner_video.mp4", // Update with your video URL
+      videoUrl: "archampatti.mp4",
       videoThumbnail: "" // Fallback thumbnail
     }
   ],
@@ -109,19 +109,19 @@ export const siteConfig = {
     title: "WHAT THEY'RE TAKING ABOUT",
     items: [
       {
-        name: "Tyrese Gibson",
+        name: "Karthik",
         role: "Businessman",
         image: "/picture.png",
         quote: "I love this place very much"
       },
       {
-        name: "Tyrese Gibson",
+        name: "Senthil Murugan",
         role: "Doctor",
         image: "/mango.png",
         quote: "best place to live"
       },
       {
-        name: "Tyrese Gibson",
+        name: "Alvanthan",
         role: "Scientist",
         image: "/neem.png",
         quote: "They are giving quality of water, land and air"
