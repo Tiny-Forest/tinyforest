@@ -64,21 +64,66 @@ export const siteConfig = {
   },
 
   // Video Sections
-  videoSections: [
-    {
-      title: "Tiny Forest - Panjapur ",
-      description: "See how Tiny Forest transforms land into thriving, sustainable forests while helping you grow your investment—step by step.",
-      videoUrl: "/Panja.mp4", // Update with your video URL
-      videoThumbnail: "" // Fallback thumbnail
-    },
-    {
-      title: "Tiny Forest - Archampatti",
-      description: "See how Tiny Forest transforms land into thriving, sustainable forests while helping you grow your investment—step by step.",
-      videoUrl: "archampatti.mp4",
-      videoThumbnail: "" // Fallback thumbnail
-    }
-  ],
-
+ videoSections: [
+  {
+    title: "Archampatti Site Overview",
+    description:
+      "See how Tiny Forest developed its Archampatti farmland into a lush ecosystem.",
+    youtubeUrl: "https://www.youtube.com/embed/JrB0mhLTbI0",
+    videoThumbnail: "/archampatti_thumb.jpg",
+    steps: [
+      {
+        icon: "CircleDot",
+        title: "Sustainable Eco-Community:",
+        description: "Its vision is to establish a Sustainable Agroforestry Community dedicated to fostering ecological balance, health, and a high quality of life for its residents."
+      },
+      {
+        icon: "Trees",
+        title: "Vision and Focus:",
+        description: " Its vision is to establish a Sustainable Agroforestry Community dedicated to fostering ecological balance, health, and a high quality of life for its residents."
+      },
+      {
+        icon: "Droplets",
+        title: "Health and Wellness Objective:",
+        description: " A core objective is to promote health and wellness by producing safe, chemical-free food and cultivating an environment that supports disease-free, healthy living."
+      },
+      {
+        icon: "TrendingUp",
+        title: "Scale and Layout:",
+        description: "The project offers a meticulously planned environment across 7 Acres with 27 Plots, providing endless greenery and a lifestyle specifically designed to be free from overcrowding."
+      }
+    ]
+  },
+  {
+    title: "Panjappur Project Development",
+    description:
+      "Watch the transformation of the Panjappur site into a thriving green farm.",
+    youtubeUrl: "https://www.youtube.com/embed/oC4T3Y0hp5c",
+    videoThumbnail: "/panjappur_thumb.jpg",
+    steps: [
+      {
+        icon: "CircleDot",
+        title: "Sustainable Eco-Community:",
+        description: "Tiny Forest is a carefully designed ecological neighborhood that perfectly combines organic farming, growing native trees, and a natural lifestyle to establish a balanced and long-lasting environment."
+      },
+      {
+        icon: "Trees",
+        title: "Vision and Focus:",
+        description: " The community's goal is to create a Sustainable Agro forestry Community focused on promoting ecological harmony, boosting health, and ensuring a high standard of living for everyone who resides there."
+      },
+      {
+        icon: "Droplets",
+        title: "Health and Wellness Objective:",
+        description: " The main purpose is to improve health and overall well-being by cultivating safe, chemical-free food and building a setting that encourages a disease-free, healthy way of life."
+      },
+      {
+        icon: "TrendingUp",
+        title: "Scale and Layout:",
+        description: "The development covers 6 Acres and contains 20 meticulously planned plots, offering abundant greenery and a living situation intentionally structured to avoid feeling crowded."
+      }
+    ]
+  },
+],
   // Why Choose Section
   whyChoose: {
     label: "IMPORTANT NOTE",
