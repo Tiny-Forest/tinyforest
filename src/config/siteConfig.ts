@@ -34,33 +34,11 @@ export const siteConfig = {
     label: "About Us",
     title: "Tiny Forest is a meticulously planned eco-community",
     description: "See how Tiny Forest transforms land into thriving, sustainable forests while helping you grow your investment—step by step.",
-
+    content:"Tiny Forest located near Panjapur and Archampatti. Focused on a Sustainable Agroforestry Life Style. Its core mission is to promote health and wellness by seamlessly integrating organic farming and the cultivation of native trees to create a harmonious, chemical-free environment. Covering 7 Acres with 27 plots in panjapur and 6 Acres with 20 plots in archmpatti it provides an opportunity to build a farmhouse or regenerative retreat, offering residents a disease-free, less-crowded way of life rooted in pure soil. The project is guided by multidisciplinary experts in agronomy, soil science, and environmental engineering to ensure a sound investment in green living and a sustainable future. multidisciplinary experts in agronomy, soil science, and environmental engineering to ensure a sound investment in green living and a sustainable future.",
     stats: {
       number: "100+",
       text: "Land transaction completed"
     },
-    steps: [
-      {
-        icon: "CircleDot",
-        title: "Sustainable Eco-Community:",
-        description: "Its vision is to establish a Sustainable Agroforestry Community dedicated to fostering ecological balance, health, and a high quality of life for its residents."
-      },
-      {
-        icon: "Trees",
-        title: "Vision and Focus:",
-        description: " Its vision is to establish a Sustainable Agroforestry Community dedicated to fostering ecological balance, health, and a high quality of life for its residents."
-      },
-      {
-        icon: "Droplets",
-        title: "Health and Wellness Objective:",
-        description: " A core objective is to promote health and wellness by producing safe, chemical-free food and cultivating an environment that supports disease-free, healthy living."
-      },
-      {
-        icon: "TrendingUp",
-        title: "Grow & Scale and Layout:",
-        description: "The project offers a meticulously planned environment across 7 Acres with 27 Plots, providing endless greenery and a lifestyle specifically designed to be free from overcrowding."
-      }
-    ]
   },
 
   // Video Sections
@@ -124,6 +102,9 @@ export const siteConfig = {
     ]
   },
 ],
+youtube: {
+  channelUrl: "https://www.youtube.com/@TinyForestGardens", // Replace with your real channel link
+},
   // Why Choose Section
   whyChoose: {
     label: "IMPORTANT NOTE",

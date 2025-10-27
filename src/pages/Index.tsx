@@ -9,6 +9,7 @@ import { TreeCarousel } from "@/components/TreeCarousel";
 import { ContactForm } from "@/components/ContactForm";
 import { CTABanner } from "@/components/CTABanner";
 import { Footer } from "@/components/Footer";
+import { YouTubeLink } from "@/components/YouTubeLink";
 
 const Index = () => {
   return (
@@ -18,6 +19,7 @@ const Index = () => {
         <HowItWorks />
         <VideoSection index={0} />
         <VideoSection index={1} />
+        {/* <YouTubeLink/> */}
         <WhyChoose />
         <Testimonials />
         <HighQualityFarms />

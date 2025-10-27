@@ -26,7 +26,7 @@ export const Testimonials: React.FC<TestimonialsProps> = ({ interval = 3000 }) =
 
   return (
     <section
-      className="py-16 md:py-24 bg-primary/10"
+      className="py-10 md:py-14 bg-primary/10"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
     >
