@@ -143,13 +143,13 @@ youtube: {
       {
         name: "Senthil Murugan",
         role: "Doctor",
-        image: "/mango.png",
+        image: "/picture.png",
         quote: "best place to live"
       },
       {
         name: "Alvanthan",
         role: "Scientist",
-        image: "/neem.png",
+        image: "/picture.png",
         quote: "They are giving quality of water, land and air"
       }
     ]
@@ -184,75 +184,264 @@ youtube: {
     title: "Tree selected by us",
     items: [
       {
-        name: "Neem",
-        description: "Known as the \"village pharmacy,\" neem is native to India and has medicinal properties. Its leaves, bark, and seeds are used in traditional medicine, and it is also valued for shade and soil improvement.",
-        extra:"Extra information",
-        image: "/neem.png"
+        name: "Neem Tree",
+        description: "The neem tree has strong medicinal properties and repels pests naturally. It purifies air, provides deep shade, and supports sustainable living.",
+        image: "/trees/neem.png"
       },
       {
         name: "Mango",
-        description: "Mango trees are tropical evergreens famous for their delicious fruit. They can grow very large and provide ample shade. Mango wood is also used in furniture and crafts.",
-         extra:"Extra information",
-        image: "/mango.png"
+        description: "The mango tree provides delicious, vitamin-rich fruits. Its shade keeps surroundings cool, and it improves air quality by absorbing carbon dioxide.",
+        image: "/trees/mango.png"
       },
       {
-        name: "Peepal",
-        description: "Considered sacred in India, the peepal tree is known for its heart-shaped leaves. It is revered in religious traditions and provides a large canopy that supports local wildlife.",
-         extra:"Extra information",
-        image: "/peepal.png"
+        name: "Jackfruit Tree",
+        description: "Jackfruit trees produce large, energy-rich fruits and provide timber for durable furniture. They help in soil conservation and add beauty and greenery to the land.",
+        image: "/trees/jackfruit.png"
       },
       {
-        name: "Teak",
-        description: "Teak is a hardwood tree known for its durable, water-resistant wood used in South and Southeast Asia. It is used in furniture, shipbuilding, and building.",
-         extra:"Extra information",
-        image: "/teak.png"
+        name: "Banana Tree",
+        description: "Banana trees yield nutrient-rich fruits and leaves useful for traditional cooking. They help maintain soil moisture and support biodiversity around them.",
+        image: "/trees/banana.png"
       },
       {
-        name: "Neem",
-        description: "Known as the \"village pharmacy,\" neem is native to India and has medicinal properties. Its leaves, bark, and seeds are used in traditional medicine, and it is also valued for shade and soil improvement.",
-        extra:"Extra information",
-        image: "/neem.png"
+        name: "Lemon Tree",
+        description: "Lemon trees offer vitamin C-rich fruits used for food and health remedies. Their pleasant aroma purifies air and attracts pollinators like bees.",
+        image: "/trees/lemon.png"
       },
       {
-        name: "Neem",
-        description: "Known as the \"village pharmacy,\" neem is native to India and has medicinal properties. Its leaves, bark, and seeds are used in traditional medicine, and it is also valued for shade and soil improvement.",
-        extra:"Extra information",
-        image: "/neem.png"
-      },{
-        name: "Neem",
-        description: "Known as the \"village pharmacy,\" neem is native to India and has medicinal properties. Its leaves, bark, and seeds are used in traditional medicine, and it is also valued for shade and soil improvement.",
-        extra:"Extra information",
-        image: "/neem.png"
+        name: "Coconut Tree",
+        description: "Coconut water is a natural electrolyte drink. Its oil, fiber, and milk provide healthy fats and antioxidants, supporting livelihoods and preventing erosion.",
+        image: "/trees/coconut.png"
       },
       {
-        name: "Neem",
-        description: "Known as the \"village pharmacy,\" neem is native to India and has medicinal properties. Its leaves, bark, and seeds are used in traditional medicine, and it is also valued for shade and soil improvement.",
-        extra:"Extra information",
-        image: "/neem.png"
+        name: "Black Plum Tree",
+        description: "The black plum tree offers antioxidant-rich fruits that manage blood sugar and improve digestion. It gives deep shade and purifies air.",
+        image: "/trees/black-plum.png"
       },
       {
-        name: "Neem",
-        description: "Known as the \"village pharmacy,\" neem is native to India and has medicinal properties. Its leaves, bark, and seeds are used in traditional medicine, and it is also valued for shade and soil improvement.",
-        extra:"Extra information",
-        image: "/neem.png"
+        name: "Amla Tree",
+        description: "The amla tree produces highly medicinal fruits rich in vitamin C. It strengthens soil health and is valuable for traditional Ayurvedic medicine.",
+        image: "/trees/amla.png"
       },
       {
-        name: "Neem",
-        description: "Known as the \"village pharmacy,\" neem is native to India and has medicinal properties. Its leaves, bark, and seeds are used in traditional medicine, and it is also valued for shade and soil improvement.",
-        extra:"Extra information",
-        image: "/neem.png"
+        name: "Guava Tree",
+        description: "Guava trees yield vitamin-rich fruits that boost immunity. They are hardy, fast-growing, and help improve the soil’s organic content.",
+        image: "/trees/guava.png"
       },
       {
-        name: "Neem",
-        description: "Known as the \"village pharmacy,\" neem is native to India and has medicinal properties. Its leaves, bark, and seeds are used in traditional medicine, and it is also valued for shade and soil improvement.",
-        extra:"Extra information",
-        image: "/neem.png"
+        name: "Sapota Tree",
+        description: "Sapota trees produce sweet, energy-filled fruits and dense foliage for shade. They help reduce air pollution and enhance the landscape's greenery.",
+        image: "/trees/sapota.png"
       },
       {
-        name: "Neem",
-        description: "Known as the \"village pharmacy,\" neem is native to India and has medicinal properties. Its leaves, bark, and seeds are used in traditional medicine, and it is also valued for shade and soil improvement.",
-        extra:"Extra information",
-        image: "/neem.png"
+        name: "Papaya Tree",
+        description: "Papaya trees provide vitamin-rich fruits that aid digestion. Their rapid growth and low maintenance make them perfect for eco-friendly farming.",
+        image: "/trees/papaya.png"
+      },
+      {
+        name: "Manila Tamarind Tree",
+        description: "The Manila tamarind tree offers tangy, protein-rich pods and provides strong shade. It improves soil fertility and supports wildlife habitats.",
+        image: "/trees/manila-tamarind.png"
+      },
+      {
+        name: "Soursop Tree",
+        description:"Soursop trees bear nutrient-packed fruits known for their medicinal benefits. They enrich the ecosystem by attracting birds and pollinators.",
+        image: "/trees/soursop.png"
+      },
+      {
+        name: "Water Apple Tree",
+        description: "The water apple tree yields refreshing, water-rich fruits that help in hydration. Its lush foliage adds beauty and supports a cool microclimate.",
+        image: "/trees/water-apple.png"
+      },
+      {
+        name: "Indian Jujube Tree",
+        description: "The jujube tree produces vitamin-rich fruits and thrives even in dry regions. It provides food for birds and helps in preventing soil erosion.",
+        image: "/trees/jujube.png"
+      },
+      {
+        name: "Mandarin Orange Tree",
+        description: "Mandarin orange trees produce juicy fruits packed with vitamin C. Their bright foliage purifies air and adds color and fragrance to the land.",
+        image: "/trees/mandarin-orange.png"
+      },
+      {
+        name: "Drumstick Tree",
+        description: "The Moringa tree yields nutrient-rich \"superfood\" leaves and pods. It grows fast, improves soil fertility, and provides essential vitamins/minerals.",
+        image: "/trees/drumstick.png"
+      },
+      {
+        name: "Hummingbird Tree",
+        description: "The hummingbird tree offers edible leaves and flowers, is packed with nutrients, enriches soil with nitrogen, and creates a green environment.",
+        image: "/trees/hummingbird.png"
+      },
+      {
+        name: "Beleric Tree",
+        description: "The beleric tree is valued in traditional medicine for its fruit. It helps purify the air and contributes to ecological balance.",
+        image: "/trees/beleric.png"
+      },
+      {
+        name: "Chebulic Myrobalan",
+        description: "Its medicinal fruits and decomposing leaves improve soil fertility naturally, supporting biodiversity and enriching land. The tree provides shade and habitat.",
+        image: "/trees/chebulic-myrobalan.png"
+      },
+      {
+        name: "Indian Beech Tree",
+        description: "The Indian beech tree produces oil-rich seeds for remedies and biofuel. It gives strong shade, supports pollinators, and improves soil fertility.",
+        image: "/trees/beech.png"
+      },
+      {
+        name: "Mahua Tree",
+        description: "The mahua tree yields flowers and seeds used for food, oil, and medicine. It supports rural livelihoods and helps in maintaining biodiversity.",
+        image: "/trees/mahua.png"
+      },
+      {
+        name: "Indian Laurele",
+        description: "This tree prevents soil erosion and stabilizes land, especially in coastal areas. Its dense canopy shelters wildlife; seeds yield traditional medicine oil.",
+        image: "/trees/laurele.png"
+      },
+      {
+        name: "Arjuna Tree",
+        description: "The Arjuna tree's bark is known for heart-healing in traditional medicine. It strengthens riverbanks, prevents soil erosion, and enhances greenery.",
+        image: "/trees/arjuna.png"
+      },
+      {
+        name: "Holy Basil",
+        description: "Used in herbal medicine, it's a powerful adaptogen that reduces stress and boosts immunity. Organically grown, it repels insects and improves soil health.",
+        image: "/trees/basil.png"
+      },
+      {
+        name: "Jasmine",
+        description:"Their soothing fragrance calms the mind, refreshes the home, reduces stress, and promotes sleep. Used traditionally for cooling and relieving headaches.",
+        image: "/trees/jasmine.png"
+      },
+      {
+        name: "Brinjal",
+        description: "Rich in antioxidants and fiber, it supports heart health and helps control blood sugar. Its low calories aid weight management.",
+        image: "/trees/brinjal.png"
+      },
+      {
+        name: "Tomato",
+        description: "A culinary staple rich in Lycopene, a powerful antioxidant promoting heart health and reducing cancer risk. High Vitamin C boosts immunity.",
+        image: "/trees/tomato.png"
+      },
+      {
+        name: "Jackfruit Tree",
+        description: "Jackfruit trees produce large, energy-rich fruits and provide timber for durable furniture. They help in soil conservation and add beauty and greenery to the land.",
+        image: "/trees/jackfruit.png"
+      },
+      {
+        name: "Lady's Finger",
+        description: "High in dietary fiber, this vegetable is excellent for digestion, preventing constipation, aiding weight loss, and managing blood sugar.",
+        image: "/trees/lady-finger.png"
+      },
+      {
+        name: "Chilli Pepper",
+        description: "Contains Capsaicin, which boosts metabolism and aids pain relief. Used in cooking to add flavour and heat, enhancing appetite.",
+        image: "/trees/chilli.png"
+      },
+      {
+        name: "Cluster Beans",
+        description: "Good source of fiber, protein, and iron for digestion and anemia. Contains calcium and Vitamin K for bone health.",
+        image: "/trees/cluster-beans.png"
+      },
+      {
+        name: "Ridge Gourd",
+        description: "Low in calories and high in water, it aids weight management and detoxifies liver and kidneys. Its fiber relieves constipation, improving vision.",
+        image: "/trees/ridge-gourd.png"
+      },
+      {
+        name: "Black Nightshade Leaves",
+        description: "Traditionally known for anti-ulcer properties, it relieves stomach and mouth ulcers, aiding digestion. Rich in antioxidants, it treats skin conditions.",
+        image: "/trees/nightshade-leaves.png"
+      },
+      {
+        name: "Dwarf Copperleaf",
+        description: "Consumed for improving eyesight and treating eye issues. It supports liver health as a detoxifier and has a cooling effect.",
+        image: "/trees/dwarf-copperleaf.png"
+      },
+      {
+        name: "Spinach",
+        description: "Rich in iron, Vitamins K and A, it prevents anemia, strengthens bones. Antioxidants protect eyes and regulate blood pressure.",
+        image: "/trees/spinach.png"
+      },
+      {
+        name: "Tropical Amaranthus",
+        description: "Tropical amaranthus, rich in iron, calcium, and fiber, prevents anemia, improves digestion, and reduces body heat.",
+        image: "/trees/amaranthus.png"
+      },
+      {
+        name: "Foxtail Amaranth",
+        description: "Highly nutritious stems and leaves offer fiber for digestion; amaranth seeds provide gluten-free protein and calcium for bones.",
+        image: "/trees/foxtail-amaranth.png"
+      },
+      {
+        name: "Mint",
+        description:"Menthol aids digestion, reducing nausea, bloating, and gas. Its fresh aroma relieves headaches and combats bad breath.",
+        image: "/trees/mint.png"
+      },
+      {
+        name: "Water Apple Tree",
+        description: "The water apple tree yields refreshing, water-rich fruits that help in hydration. Its lush foliage adds beauty and supports a cool microclimate.",
+        image: "/trees/water-apple.png"
+      },
+      {
+        name: "Indian Jujube Tree",
+        description: "The jujube tree produces vitamin-rich fruits and thrives even in dry regions. It provides food for birds and helps in preventing soil erosion.",
+        image: "/trees/jujube.png"
+      },
+      {
+        name: "Mandarin Orange Tree",
+        description: "Mandarin orange trees produce juicy fruits packed with vitamin C. Their bright foliage purifies air and adds color and fragrance to the land.",
+        image: "/trees/mandarin-orange.png"
+      },
+      {
+        name: "Drumstick Tree",
+        description: "The Moringa tree yields nutrient-rich \"superfood\" leaves and pods. It grows fast, improves soil fertility, and provides essential vitamins/minerals.",
+        image: "/trees/drumstick.png"
+      },
+      {
+        name: "Hummingbird Tree",
+        description: "The hummingbird tree offers edible leaves and flowers, is packed with nutrients, enriches soil with nitrogen, and creates a green environment.",
+        image: "/trees/hummingbird.png"
+      },
+      {
+        name: "Beleric Tree",
+        description: "The beleric tree is valued in traditional medicine for its fruit. It helps purify the air and contributes to ecological balance.",
+        image: "/trees/beleric.png"
+      },
+      {
+        name: "Chebulic Myrobalan",
+        description: "Its medicinal fruits and decomposing leaves improve soil fertility naturally, supporting biodiversity and enriching land. The tree provides shade and habitat.",
+        image: "/trees/chebulic-myrobalan.png"
+      },
+      {
+        name: "Indian Beech Tree",
+        description: "The Indian beech tree produces oil-rich seeds for remedies and biofuel. It gives strong shade, supports pollinators, and improves soil fertility.",
+        image: "/trees/beech.png"
+      },
+      {
+        name: "Mahua Tree",
+        description: "The mahua tree yields flowers and seeds used for food, oil, and medicine. It supports rural livelihoods and helps in maintaining biodiversity.",
+        image: "/trees/mahua.png"
+      },
+      {
+        name: "Indian Laurele",
+        description: "This tree prevents soil erosion and stabilizes land, especially in coastal areas. Its dense canopy shelters wildlife; seeds yield traditional medicine oil.",
+        image: "/trees/laurele.png"
+      },
+      {
+        name: "Arjuna Tree",
+        description: "The Arjuna tree's bark is known for heart-healing in traditional medicine. It strengthens riverbanks, prevents soil erosion, and enhances greenery.",
+        image: "/trees/arjuna.png"
+      },
+      {
+        name: "Holy Basil",
+        description: "Used in herbal medicine, it's a powerful adaptogen that reduces stress and boosts immunity. Organically grown, it repels insects and improves soil health.",
+        image: "/trees/basil.png"
+      },
+      {
+        name: "Jasmine",
+        description:"Their soothing fragrance calms the mind, refreshes the home, reduces stress, and promotes sleep. Used traditionally for cooling and relieving headaches.",
+        image: "/trees/jasmine.png"
       }
     ]
   },

@@ -5,12 +5,11 @@ import { Button } from "@/components/ui/button";
 
 export const TreeCarousel = () => {
   const [activeIndex, setActiveIndex] = useState(0);
-  const containerRef = useRef(null);
-  const itemRefs = useRef([]);
-
+  const containerRef = useRef<HTMLDivElement | null>(null);
+  const itemRefs = useRef<(HTMLDivElement | null)[]>([]);
   const total = siteConfig.trees.items.length;
 
-  const scrollToIndex = (index) => {
+  const scrollToIndex = (index: number) => {
     const el = itemRefs.current[index];
     if (el && containerRef.current) {
       const container = containerRef.current;
@@ -21,7 +20,7 @@ export const TreeCarousel = () => {
     }
   };
 
-  const go = (direction) => {
+  const go = (direction: "next" | "prev") => {
     const nextIndex =
       direction === "next"
         ? (activeIndex + 1) % total
@@ -35,8 +34,9 @@ export const TreeCarousel = () => {
   }, [activeIndex]);
 
   return (
-    <section className="py-16 md:py-24 bg-[#F5F5F3]">
+    <section className="py-10 md:py-14 bg-primary/10">
       <div className="container mx-auto px-4">
+        {/* Header */}
         <p className="text-sm text-muted-foreground mb-2 uppercase tracking-wider text-center">
           {siteConfig.trees.label}
         </p>
@@ -44,15 +44,15 @@ export const TreeCarousel = () => {
           {siteConfig.trees.title}
         </h2>
 
-        {/* Carousel */}
+        {/* Carousel Container */}
         <div className="relative">
-          {/* Arrows */}
+          {/* Navigation Arrows (desktop only) */}
           <Button
             variant="ghost"
             size="icon"
             onClick={() => go("prev")}
             aria-label="Previous"
-            className="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 z-20 bg-white shadow-md text-primary hover:bg-white/90"
+            className="hidden md:flex absolute -left-14 top-1/2 -translate-y-1/2 z-20 bg-white shadow-md text-primary hover:bg-primary/10"
           >
             <ChevronLeft className="w-6 h-6" />
           </Button>
@@ -62,44 +62,55 @@ export const TreeCarousel = () => {
             size="icon"
             onClick={() => go("next")}
             aria-label="Next"
-            className="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 z-20 bg-white shadow-md text-primary hover:bg-white/90"
+            className="hidden md:flex absolute -right-14 top-1/2 -translate-y-1/2 z-20 bg-white shadow-md text-primary hover:bg-primary/10"
           >
             <ChevronRight className="w-6 h-6" />
           </Button>
 
-          {/* Cards container */}
-          <div
-            ref={containerRef}
-            className="flex gap-6 overflow-x-auto snap-x snap-mandatory scroll-smooth px-10 pb-2"
-            style={{ WebkitOverflowScrolling: "touch" }}
-          >
-            {siteConfig.trees.items.map((tree, index) => (
-              <div
-                key={index}
-                ref={(el) => (itemRefs.current[index] = el)}
-                className="snap-center flex-shrink-0 bg-white rounded-xl shadow-md overflow-hidden w-64 md:w-72 hover:shadow-lg transition-shadow duration-300"
-              >
-                {/* Image */}
-                <img
-                  src={tree.image || "/placeholder.svg"}
-                  alt={tree.name}
-                  className="w-full h-40 object-cover"
-                />
+          {/* Scrollable Track */}
+<div
+  ref={containerRef}
+  className="flex gap-8 overflow-x-auto scroll-smooth px-1 pb-4 md:px-16 bg-primary/1 scrollbar-hide"
+  style={{
+    WebkitOverflowScrolling: "touch",
+    scrollSnapType: "x proximity",
+  }}
+>
+  {siteConfig.trees.items.map((tree, index) => (
+    <div
+      key={index}
+      ref={(el) => (itemRefs.current[index] = el)}
+      className="snap-start flex-shrink-0 w-[320px] sm:w-[380px] md:w-[420px] lg:w-[420px] 
+                 rounded-xl overflow-hidden bg-white shadow-md hover:shadow-lg 
+                 transition-all duration-300 flex flex-col"
+    >
+      {/* Top Image */}
+      <div className="relative w-full h-[220px] sm:h-[310px] md:h-[310px] lg:h-[340px] overflow-hidden">
+        <img
+          src={tree.image || "/placeholder.svg"}
+          alt={tree.name}
+          className="w-full h-full object-cover"
+          loading="lazy"
+        />
+      </div>
 
-                {/* Content */}
-                <div className="p-4 bg-[#E9E9E9]">
-                  <h3 className="text-lg font-semibold mb-2 text-[#2C3E2B]">
-                    {tree.name}
-                  </h3>
-                  <p className="text-sm text-gray-700 leading-relaxed">
-                    {tree.description}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
+      {/* Bottom Content */}
+      <div className="bg-primary/10 flex-1 flex flex-col justify-between p-6">
+        <div>
+          <h3 className="text-lg md:text-xl font-semibold text-[#2C3E2B] mb-2">
+            {tree.name}
+          </h3>
+          <p className="text-sm text-gray-700 leading-relaxed">
+            {tree.description}
+          </p>
+        </div>
+      </div>
+    </div>
+  ))}
+</div>
 
-          {/* Dots */}
+
+          {/* Dots (optional, center bottom) */}
           <div className="flex justify-center gap-2 mt-6">
             {siteConfig.trees.items.map((_, index) => (
               <button
@@ -107,7 +118,7 @@ export const TreeCarousel = () => {
                 onClick={() => setActiveIndex(index)}
                 aria-label={`Go to item ${index + 1}`}
                 className={`w-2 h-2 rounded-full transition-all ${
-                  index === activeIndex ? "bg-primary w-8" : "bg-gray-300"
+                  index === activeIndex ? "bg-primary w-6" : "bg-gray-300"
                 }`}
               />
             ))}
@@ -117,3 +128,5 @@ export const TreeCarousel = () => {
     </section>
   );
 };
+
+export default TreeCarousel;
