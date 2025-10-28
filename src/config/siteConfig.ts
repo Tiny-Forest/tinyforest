@@ -1,6 +1,8 @@
 // Configuration file for Tiny Forest website
 // Update videos and images here
 
+import { YouTubeLink } from "@/components/YouTubeLink";
+
 export const siteConfig = {
   // Company Information
   company: {
@@ -10,6 +12,7 @@ export const siteConfig = {
     phone: ["+91 82203 91187", "+91 99946 80316"],
     whatsappUrl: "https://wa.me/918220391187",
     email: "tinyforestgardens@gmail.com",
+    Youtubelink: "https://www.youtube.com/@TinyForestGardens",
     address: {
       line1: "Tamil Nadu"
     },

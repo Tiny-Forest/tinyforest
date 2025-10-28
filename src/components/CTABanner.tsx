@@ -7,22 +7,27 @@ export const CTABanner = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-4">
-            <div className="w-12 h-12  flex items-center justify-center flex-shrink-0">
+            <div className="w-12 h-12 flex items-center justify-center flex-shrink-0">
               <img
-src="/cta_banner_icon.png"
-alt="CTA Banner Icon"
-className="h-full w-full rounded-xl object-cover"
-/>
+                src="/cta_banner_icon.png"
+                alt="CTA Banner Icon"
+                className="h-full w-full rounded-xl object-cover"
+              />
             </div>
             <h2 className="text-2xl md:text-3xl font-script text-foreground">
               {siteConfig.ctaBanner.text}
             </h2>
           </div>
-          <Button 
-            className="bg-primary hover:bg-primary/90 text-white font-semibold whitespace-nowrap"
+
+          <a
+            href={siteConfig.company.Youtubelink} // ← your YouTube channel link
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            {siteConfig.ctaBanner.buttonText}
-          </Button>
+            <Button className="bg-primary hover:bg-primary/90 text-white font-semibold whitespace-nowrap">
+              {siteConfig.ctaBanner.buttonText}
+            </Button>
+          </a>
         </div>
       </div>
     </section>
