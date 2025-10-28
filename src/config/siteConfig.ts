@@ -7,14 +7,11 @@ export const siteConfig = {
     name: "Tiny Forest",
     tagline: "Invest in Nature, Grow Your Wealth",
     description: "Tiny Forest buys and nurtures land, plants premium trees, and ensures sustainable growth for you.",
-    phone: ["+880123456789", "+880987654321"],
-    whatsappUrl: "https://wa.me/880123456789",
-    email: "needhelp@company.com",
+    phone: ["+91 82203 91187", "+91 99946 80316"],
+    whatsappUrl: "https://wa.me/918220391187",
+    email: "tinyforestgardens@gmail.com",
     address: {
-      line1: "No 12 MG Road,",
-      line2: "Near Rockfort Temple,",
-      line3: "Tiruchirappalli - 620001,",
-      line4: "Tamil Nadu, India"
+      line1: "Tamil Nadu"
     },
     logo: "/logo.png", // Logo is now in the public folder
   },

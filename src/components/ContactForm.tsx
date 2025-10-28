@@ -35,7 +35,7 @@ export const ContactForm = () => {
   };
 
   return (
-    <section id="contact" className="py-1 md:py-14 bg-primary/10">
+    <section id="contact" className="py-10 md:py-14 bg-primary/10">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Contact Info */}
@@ -73,9 +73,6 @@ export const ContactForm = () => {
                 </p>
                 <p className="text-foreground">
                   {siteConfig.company.address.line1}<br />
-                  {siteConfig.company.address.line2}<br />
-                  {siteConfig.company.address.line3}<br />
-                  {siteConfig.company.address.line4}
                 </p>
               </div>
             </div>
