@@ -5,7 +5,7 @@ export const Hero = () => {
   return (
     <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden">
       {/* Video Background */}
-      <div className="absolute inset-0 z-0">
+      {/* <div className="absolute inset-0 z-0">
         <video
           autoPlay
           loop
@@ -16,7 +16,24 @@ export const Hero = () => {
           <source src={siteConfig.hero.videoUrl} type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/40" />
-      </div>
+      </div> */}
+      <div className="absolute inset-0 z-0 overflow-hidden">
+        <div className="video-wrapper w-full h-full">
+          <iframe
+        className="absolute top-1/2 left-1/2 w-[177.78vh] h-screen min-w-full min-h-[56.25vw] -translate-x-1/2 -translate-y-1/2 pointer-events-none"
+        src="https://www.youtube.com/embed/2DEwPTkcaqE?autoplay=1&mute=1&loop=1&playlist=2DEwPTkcaqE&controls=0&showinfo=0&modestbranding=1&start=00&end=90"
+        title="Tiny Forest Video"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>
+    </div>
+
+  {/* 🔥 overlay fades out after 1.2 s */}
+  <div className="video-overlay"></div>
+
+<div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/40" />
+</div>
 
       
         <div className="absolute top-0 left-0 w-full z-20 ">
@@ -28,7 +45,7 @@ export const Hero = () => {
                 className="h-11 w-11 object-contain rounded-full bg-white/80 shadow mr-0"
                 />
               <span
-                className="md:text-2xl text-xl font-thin text-white/80"
+                className="md:text-2xl text-xl font-thin text-white"
                 style={{ fontFamily: '"Times New Roman", Times, serif' }}
               >
                 {siteConfig.company.name}
