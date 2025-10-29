@@ -132,7 +132,7 @@ youtube: {
   // Testimonials
   testimonials: {
     label: "OUR TESTIMONIALS",
-    title: "WHAT THEY'RE TAKING ABOUT",
+    title: "WHAT THEY'RE TALKING ABOUT",
     items: [
       {
         name: "Karthik",
