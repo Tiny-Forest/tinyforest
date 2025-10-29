@@ -25,9 +25,14 @@ export const Hero = () => {
                 <img
                 src={siteConfig.company.logo}
                 alt={`${siteConfig.company.name} logo`}
-                className="h-10 w-10 object-contain rounded-full bg-white/80 shadow mr-0"
+                className="h-11 w-11 object-contain rounded-full bg-white/80 shadow mr-0"
                 />
-              <span className="md:text-3xl text-xl font-thin text-white font-script">{siteConfig.company.name}</span>
+              <span
+                className="md:text-2xl text-xl font-thin text-white/80"
+                style={{ fontFamily: '"Times New Roman", Times, serif' }}
+              >
+                {siteConfig.company.name}
+              </span>
             </div>
                 <div className="fixed top-4 right-4 z-50 flex flex-col md:flex-row items-center gap-2 md:gap-3">
                     <Button

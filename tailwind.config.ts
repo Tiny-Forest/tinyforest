@@ -16,6 +16,7 @@ export default {
     extend: {
       fontFamily: {
         script: ['"Dancing Script"', 'cursive'],
+        livvic: ['"Livvic"', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",

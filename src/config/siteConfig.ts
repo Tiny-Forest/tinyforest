@@ -47,7 +47,7 @@ export const siteConfig = {
     title: "Archampatti Site Overview",
     description:
       "See how Tiny Forest developed its Archampatti farmland into a lush ecosystem.",
-    youtubeUrl: "https://www.youtube.com/embed/JrB0mhLTbI0",
+    youtubeUrl: "https://www.youtube.com/embed/5-H1UcHXJcw",
     videoThumbnail: "/archampatti_thumb.jpg",
     steps: [
       {
@@ -377,71 +377,6 @@ youtube: {
         name: "Mint",
         description:"Menthol aids digestion, reducing nausea, bloating, and gas. Its fresh aroma relieves headaches and combats bad breath.",
         image: "/trees/mint.png"
-      },
-      {
-        name: "Water Apple Tree",
-        description: "The water apple tree yields refreshing, water-rich fruits that help in hydration. Its lush foliage adds beauty and supports a cool microclimate.",
-        image: "/trees/water-apple.png"
-      },
-      {
-        name: "Indian Jujube Tree",
-        description: "The jujube tree produces vitamin-rich fruits and thrives even in dry regions. It provides food for birds and helps in preventing soil erosion.",
-        image: "/trees/jujube.png"
-      },
-      {
-        name: "Mandarin Orange Tree",
-        description: "Mandarin orange trees produce juicy fruits packed with vitamin C. Their bright foliage purifies air and adds color and fragrance to the land.",
-        image: "/trees/mandarin-orange.png"
-      },
-      {
-        name: "Drumstick Tree",
-        description: "The Moringa tree yields nutrient-rich \"superfood\" leaves and pods. It grows fast, improves soil fertility, and provides essential vitamins/minerals.",
-        image: "/trees/drumstick.png"
-      },
-      {
-        name: "Hummingbird Tree",
-        description: "The hummingbird tree offers edible leaves and flowers, is packed with nutrients, enriches soil with nitrogen, and creates a green environment.",
-        image: "/trees/hummingbird.png"
-      },
-      {
-        name: "Beleric Tree",
-        description: "The beleric tree is valued in traditional medicine for its fruit. It helps purify the air and contributes to ecological balance.",
-        image: "/trees/beleric.png"
-      },
-      {
-        name: "Chebulic Myrobalan",
-        description: "Its medicinal fruits and decomposing leaves improve soil fertility naturally, supporting biodiversity and enriching land. The tree provides shade and habitat.",
-        image: "/trees/chebulic-myrobalan.png"
-      },
-      {
-        name: "Indian Beech Tree",
-        description: "The Indian beech tree produces oil-rich seeds for remedies and biofuel. It gives strong shade, supports pollinators, and improves soil fertility.",
-        image: "/trees/beech.png"
-      },
-      {
-        name: "Mahua Tree",
-        description: "The mahua tree yields flowers and seeds used for food, oil, and medicine. It supports rural livelihoods and helps in maintaining biodiversity.",
-        image: "/trees/mahua.png"
-      },
-      {
-        name: "Indian Laurele",
-        description: "This tree prevents soil erosion and stabilizes land, especially in coastal areas. Its dense canopy shelters wildlife; seeds yield traditional medicine oil.",
-        image: "/trees/laurele.png"
-      },
-      {
-        name: "Arjuna Tree",
-        description: "The Arjuna tree's bark is known for heart-healing in traditional medicine. It strengthens riverbanks, prevents soil erosion, and enhances greenery.",
-        image: "/trees/arjuna.png"
-      },
-      {
-        name: "Holy Basil",
-        description: "Used in herbal medicine, it's a powerful adaptogen that reduces stress and boosts immunity. Organically grown, it repels insects and improves soil health.",
-        image: "/trees/basil.png"
-      },
-      {
-        name: "Jasmine",
-        description:"Their soothing fragrance calms the mind, refreshes the home, reduces stress, and promotes sleep. Used traditionally for cooling and relieving headaches.",
-        image: "/trees/jasmine.png"
       }
     ]
   },
