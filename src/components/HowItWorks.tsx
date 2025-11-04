@@ -38,11 +38,12 @@ export const HowItWorks = () => {
             {/* Yellow vertical strip beside image */}
             <div
               aria-hidden="true"
-              className="absolute left-24 bottom-6 sm:bottom-10 w-3 sm:w-4 lg:w-5 h-[70%] bg-[#E5B94A] rounded-md -z-10"
+              className="absolute -left-2 -right-10 bottom-6 top-38 sm:bottom-10 sm:-left-4  w-3 sm:w-3 lg:w-8 h-[40%] bg-[#E5B94A] rounded-md"
+            
             />
 
             {/* --- Image --- */}
-            <div className="relative sm:aspect-[3/2] lg:aspect-[5/5] overflow-hidden rounded-xl bg-primary/5 shadow-sm">
+            <div className="relative lg:aspect-[5/5] overflow-hidden rounded-xl bg-primary/5 shadow-sm">
               <img
                 src="/how-it-works.png"
                 alt="Native tree planting at Tiny Forest"
