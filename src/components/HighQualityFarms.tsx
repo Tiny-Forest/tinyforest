@@ -19,9 +19,6 @@ export const HighQualityFarms = () => {
       >
         <div className="container mx-auto flex items-center justify-end px-8 lg:px-36">
           <div className="max-w-xl text-white space-y-6">
-            <p className="text-xs font-medium uppercase tracking-wider opacity-90 sm:text-sm">
-              {siteConfig.highQualityFarms.label}
-            </p>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
               {siteConfig.highQualityFarms.title}
             </h2>
@@ -60,9 +57,6 @@ export const HighQualityFarms = () => {
       >
         <div className=" lg:bg-transparent">
           <div className="px-6 pt-80 pb-64 text-white">
-            <p className="text-xs font-medium uppercase tracking-wider opacity-90 sm:text-base py-10">
-              {siteConfig.highQualityFarms.label}
-            </p>
             <h2 className="text-4xl font-bold mb-8 leading-tight">
               {siteConfig.highQualityFarms.title}
             </h2>

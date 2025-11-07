@@ -41,7 +41,7 @@ export const Testimonials: React.FC<TestimonialsProps> = ({ interval = 3000 }) =
         <div className="max-w-4xl mx-auto">
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="relative flex-shrink-0">
-              <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden bg-muted">
+              <div className="w-32 h-32 md:w-40 md:h-60 rounded-full overflow-hidden bg-muted">
                 <img
                   src={items[activeIndex].image || "/placeholder.svg"}
                   alt={items[activeIndex].name}

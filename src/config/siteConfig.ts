@@ -7,14 +7,14 @@ export const siteConfig = {
   // Company Information
   company: {
     name: "Tiny Forest",
-    tagline: "Invest in Nature, Grow Your Wealth",
+    tagline: "Invest in Nature, Place that Heals",
     description: "Tiny Forest buys and nurtures land, plants premium trees, and ensures sustainable growth for you.",
-    phone: ["+91 82203 91187", "+91 99946 80316"],
-    whatsappUrl: "https://wa.me/918220391187",
+    phone: ["+91 70922 11099, +91 99946 80316"],
+    whatsappUrl: "https://wa.me/7092211099",
     email: "tinyforestgardens@gmail.com",
     Youtubelink: "https://www.youtube.com/@TinyForestGardens",
     address: {
-      line1: "Tamil Nadu"
+      line1: "Tiruchirappalli, Tamil Nadu"
     },
     logo: "/logo.png", // Logo is now in the public folder
   },
@@ -23,9 +23,9 @@ export const siteConfig = {
   hero: {
     subtitle: "Original & Natural",
     titleHighlight: "Invest in Nature,",
-    title: "Grow Your Wealth",
+    title: " Place that Heals",
     description: "Tiny Forest buys and nurtures land, plants premium trees, and ensures sustainable growth for you.",
-    videoUrl: "/banner_video.mp4",
+    videoUrl: "https://pub-95cf346dcb2f490d8c4145e006736fcf.r2.dev",
     backgroundImage: "Farm Land"
   },
 
@@ -43,35 +43,6 @@ export const siteConfig = {
 
   // Video Sections
  videoSections: [
-  {
-    title: "Archampatti Site Overview",
-    description:
-      "See how Tiny Forest developed its Archampatti farmland into a lush ecosystem.",
-    youtubeUrl: "https://www.youtube.com/embed/5-H1UcHXJcw",
-    videoThumbnail: "/archampatti_thumb.jpg",
-    steps: [
-      {
-        icon: "CircleDot",
-        title: "Sustainable Eco-Community:",
-        description: "Its vision is to establish a Sustainable Agroforestry Community dedicated to fostering ecological balance, health, and a high quality of life for its residents."
-      },
-      {
-        icon: "Trees",
-        title: "Vision and Focus:",
-        description: " Its vision is to establish a Sustainable Agroforestry Community dedicated to fostering ecological balance, health, and a high quality of life for its residents."
-      },
-      {
-        icon: "Droplets",
-        title: "Health and Wellness Objective:",
-        description: " A core objective is to promote health and wellness by producing safe, chemical-free food and cultivating an environment that supports disease-free, healthy living."
-      },
-      {
-        icon: "TrendingUp",
-        title: "Scale and Layout:",
-        description: "The project offers a meticulously planned environment across 7 Acres with 27 Plots, providing endless greenery and a lifestyle specifically designed to be free from overcrowding."
-      }
-    ]
-  },
   {
     title: "Panjappur Project Development",
     description:
@@ -101,9 +72,68 @@ export const siteConfig = {
       }
     ]
   },
+  {
+    title: "Archampatti Site Overview",
+    description:
+      "See how Tiny Forest developed its Archampatti farmland into a lush ecosystem.",
+    youtubeUrl: "https://www.youtube.com/embed/5-H1UcHXJcw",
+    videoThumbnail: "/archampatti_thumb.jpg",
+    steps: [
+      {
+        icon: "CircleDot",
+        title: "Sustainable Eco-Community:",
+        description: "Its vision is to establish a Sustainable Agroforestry Community dedicated to fostering ecological balance, health, and a high quality of life for its residents."
+      },
+      {
+        icon: "Trees",
+        title: "Vision and Focus:",
+        description: " Its vision is to establish a Sustainable Agroforestry Community dedicated to fostering ecological balance, health, and a high quality of life for its residents."
+      },
+      {
+        icon: "Droplets",
+        title: "Health and Wellness Objective:",
+        description: " A core objective is to promote health and wellness by producing safe, chemical-free food and cultivating an environment that supports disease-free, healthy living."
+      },
+      {
+        icon: "TrendingUp",
+        title: "Scale and Layout:",
+        description: "The project offers a meticulously planned environment across 7 Acres with 27 Plots, providing endless greenery and a lifestyle specifically designed to be free from overcrowding."
+      }
+    ]
+  },
+   {
+    title: "Panjappur Project Development",
+    description:
+      "Watch the transformation of the Panjappur site into a thriving green farm.",
+    youtubeUrl: "https://www.youtube.com/embed/oC4T3Y0hp5c",
+    videoThumbnail: "/panjappur_thumb.jpg",
+    steps: [
+      {
+        icon: "CircleDot",
+        title: "Sustainable Eco-Community:",
+        description: "Tiny Forest is a carefully designed ecological neighborhood that perfectly combines organic farming, growing native trees, and a natural lifestyle to establish a balanced and long-lasting environment."
+      },
+      {
+        icon: "Trees",
+        title: "Vision and Focus:",
+        description: " The community's goal is to create a Sustainable Agro forestry Community focused on promoting ecological harmony, boosting health, and ensuring a high standard of living for everyone who resides there."
+      },
+      {
+        icon: "Droplets",
+        title: "Health and Wellness Objective:",
+        description: " The main purpose is to improve health and overall well-being by cultivating safe, chemical-free food and building a setting that encourages a disease-free, healthy way of life."
+      },
+      {
+        icon: "TrendingUp",
+        title: "Scale and Layout:",
+        description: "The development covers 6 Acres and contains 20 meticulously planned plots, offering abundant greenery and a living situation intentionally structured to avoid feeling crowded."
+      }
+    ]
+  }
 ],
 youtube: {
   channelUrl: "https://www.youtube.com/@TinyForestGardens", // Replace with your real channel link
+  brochureUrl: "https://drive.google.com/uc?export=download&id=14uxeyuOhUoG6HzrW6gOWTv0MwZFtpyoX", 
 },
   // Why Choose Section
   whyChoose: {
@@ -135,45 +165,44 @@ youtube: {
     title: "WHAT THEY'RE TALKING ABOUT",
     items: [
       {
-        name: "Karthik",
-        role: "Businessman",
-        image: "/picture.png",
+        name: "Ravichandran K",
+        role: "Former Lead ICS Engineer",
+        image: "/ravichandran.jpeg",
         quote: "I love this place very much"
       },
-      {
-        name: "Senthil Murugan",
-        role: "Doctor",
-        image: "/picture.png",
-        quote: "best place to live"
-      },
-      {
-        name: "Alvanthan",
-        role: "Scientist",
-        image: "/picture.png",
-        quote: "They are giving quality of water, land and air"
-      }
+      // {
+      //   name: "Senthil Murugan",
+      //   role: "Doctor",
+      //   image: "/picture.png",
+      //   quote: "best place to live"
+      // },
+      // {
+      //   name: "Alvanthan",
+      //   role: "Scientist",
+      //   image: "/picture.png",
+      //   quote: "They are giving quality of water, land and air"
+      // }
     ]
   },
 
   // High Quality Farms Section
   highQualityFarms: {
-    label: "GROWING FORESTS, RESTORING NATURE, AND OFFSETTING CARBON",
     title: "Providing High Quality Farms",
     features: [
       {
         icon: "TrendingUp",
-        title: "Trees Planted",
-        description: "Over 35 hand-picked trees nurtured across India, creating thriving mini-forests."
+        title: "Caring for the Soil",
+        description: "We enrich the soil with organic manures like farmyard compost, rock phosphate, and bio-fertilizers for lasting fertility. Native cow-based preparations like Panchagavya and Jeevamrutham naturally boost plant growth and immunity. Every six months, we add neem cake to strengthen plants and protect them from pests naturally."
       },
       {
         icon: "Sprout",
-        title: "Land Restored",
-        description: "50 acres of underutilized farmland transformed into sustainable, flourishing forests."
+        title: " Growing with Nature",
+        description: "We practice Integrated Pest Management using natural traps and pest-repelling border plants. Our diverse crops — millets, legumes, herbs, and flowers — nurture biodiversity and balanced soil cycles. Pruning and support poles ensure healthy growth, sunlight access, and strong plant structure."
       },
       {
         icon: "Target",
-        title: "Carbon Offset",
-        description: "Committed to reducing environmental impact, absorbing CO2 for a greener future."
+        title: " Sustaining Water and Life",
+        description: "Trenching and circular bunds improve water percolation and moisture retention. Ploughing loosens and aerates the soil, helping roots grow deep and strong. Every step focuses on harmony between soil, water, and plant life for long-term sustainability."
       }
     ]
   },
@@ -385,7 +414,7 @@ youtube: {
   contact: {
     label: "CONTACT NOW",
     title: "GET IN TOUCH NOW",
-    description: "Lorem ipsum dolor sit amet, adipiscing elit. In hac habitasse platea dictumst. Duis porta, quam ut finibus ultricies.",
+    description: "Creating sustainable micro-forests across the nation. Invest in nature, invest in your future.",
     formFields: {
       name: "Your Name",
       phone: "Phone Number",
@@ -397,7 +426,7 @@ youtube: {
 
   // CTA Banner
   ctaBanner: {
-    text: "We are Leader in Agriculture Market",
+    text: "Breathe. This is what peace feels like.",
     buttonText: "DISCOVER MORE"
   }
 };

@@ -19,7 +19,8 @@ const Index = () => {
         <HowItWorks />
         <VideoSection index={0} />
         <VideoSection index={1} />
-        {/* <YouTubeLink/> */}
+        <VideoSection index={2} />
+        <YouTubeLink/>
         <WhyChoose />
         <Testimonials />
         <HighQualityFarms />

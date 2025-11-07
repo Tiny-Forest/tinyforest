@@ -37,7 +37,7 @@ export const Footer = () => {
         {/* --- Right: QR + Credits --- */}
         <div className="flex flex-col items-center md:items-center text-center md:text-center space-y-1">
           <img
-            src="/qr_image.png"
+            src="/qr_image.jpeg"
             alt="Scan for Panjapur Location"
             className="w-32 h-32 rounded-md bg-white p-1"
           />

@@ -15,14 +15,17 @@ export const ContactForm = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    
+
+    // ensure recipient is pulled from siteConfig if available, otherwise fallback
+    const recipient = siteConfig?.company?.email ?? "tinyforestgardens@gmail.com";
+
     // Create mailto link
     const subject = encodeURIComponent(`Contact from ${formData.name}`);
     const body = encodeURIComponent(
       `Name: ${formData.name}\nPhone: ${formData.phone}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
     );
-    const mailtoLink = `mailto:${siteConfig.company.email}?subject=${subject}&body=${body}`;
-    
+    const mailtoLink = `mailto:${recipient}?subject=${subject}&body=${body}`;
+
     window.location.href = mailtoLink;
     toast.success("Opening your email client...");
   };
@@ -64,7 +67,7 @@ export const ContactForm = () => {
                 <p className="text-sm font-semibold text-muted-foreground mb-2 uppercase">
                   EMAIL
                 </p>
-                <p className="text-foreground">{siteConfig.company.email}</p>
+                <p className="text-foreground">{siteConfig.company.email ?? "tinyforestgardens@gmail.com"}</p>
               </div>
 
               <div>
@@ -79,7 +82,7 @@ export const ContactForm = () => {
           </div>
 
           {/* Contact Form */}
-            <form onSubmit={handleSubmit} className="space-y-11">
+          {/* <form onSubmit={handleSubmit} className="space-y-11">
             <Input
               type="text"
               name="name"
@@ -116,13 +119,13 @@ export const ContactForm = () => {
               rows={6}
               className="bg-muted-foreground/35 border-0 resize-none"
             />
-            <Button 
+            <Button
               type="submit"
               className="bg-accent/100 hover:bg-accent/90 text-foreground font-semibold"
             >
               {siteConfig.contact.submitButton}
             </Button>
-            </form>
+          </form> */}
         </div>
       </div>
     </section>
