@@ -6,7 +6,9 @@ type TestimonialsProps = {
   interval?: number; // milliseconds
 };
 
-export const Testimonials: React.FC<TestimonialsProps> = ({ interval = 3000 }) => {
+export const Testimonials: React.FC<TestimonialsProps> = ({
+  interval = 3000,
+}) => {
   const items = siteConfig.testimonials.items;
   const [activeIndex, setActiveIndex] = useState(0);
   const [paused, setPaused] = useState(false);
@@ -45,7 +47,7 @@ export const Testimonials: React.FC<TestimonialsProps> = ({ interval = 3000 }) =
                 <img
                   src={items[activeIndex].image || "/placeholder.svg"}
                   alt={items[activeIndex].name}
-                  className="w-full h-full object-cover grayscale"
+                  className="w-full h-full object-cover"
                 />
               </div>
               <Quote className="absolute -top-4 -left-4 w-16 h-16 text-accent" />
@@ -56,8 +58,12 @@ export const Testimonials: React.FC<TestimonialsProps> = ({ interval = 3000 }) =
                 "{items[activeIndex].quote}"
               </p>
               <div className="text-center md:text-left">
-                <p className="font-bold text-foreground">{items[activeIndex].name}</p>
-                <p className="text-sm text-muted-foreground">{items[activeIndex].role}</p>
+                <p className="font-bold text-foreground">
+                  {items[activeIndex].name}
+                </p>
+                <p className="text-sm text-muted-foreground">
+                  {items[activeIndex].role}
+                </p>
               </div>
             </div>
           </div>
