@@ -167,7 +167,7 @@ youtube: {
   // Testimonials
   testimonials: {
     label: "OUR TESTIMONIALS",
-    title: "WHAT THEY'RE TALKING ABOUT",
+    title: "WHAT OUR CUSTOMERS ARE TALKING ABOUT",
     items: [
       {
         name: "Ravichandran K",
