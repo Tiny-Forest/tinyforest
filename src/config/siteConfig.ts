@@ -8,23 +8,23 @@ export const siteConfig = {
   company: {
     name: "Tiny Forest",
     tagline: "Invest in Nature, Place that Heals",
-    description: "Tiny Forest buys and nurtures land, plants premium trees, and ensures sustainable growth for you.",
-    phone: ["+91 70922 11099, +91 99946 80316"],
-    whatsappUrl: "https://wa.me/7092211099",
+    description: "Wake up everyday to fresh air, green views, and a slower, healthier life, rooted in pure soil. Tiny Forest brings this peace directly to you.",
+    phone: ["+91 99946 80316, +91 70922 11099"],
+    whatsappUrl: "https://wa.me/9994680316",
     email: "tinyforestgardens@gmail.com",
     Youtubelink: "https://www.youtube.com/@TinyForestGardens",
     address: {
       line1: "Tiruchirappalli, Tamil Nadu"
     },
-    logo: "/logo.png", // Logo is now in the public folder
+    logo: "/logo.png", 
   },
 
   // Hero Section
   hero: {
-    subtitle: "Original & Natural",
-    titleHighlight: "Invest in Nature,",
+    subtitle: "A Sustainable Agroforestry lifestyle",
+    titleHighlight: "Where every tree tells a Story.",
     title: " Place that Heals",
-    description: "Tiny Forest buys and nurtures land, plants premium trees, and ensures sustainable growth for you.",
+    description: "Wake up everyday to fresh air, green views, and a slower, healthier life, rooted in pure soil. Tiny Forest brings this peace directly to you.",
     videoUrl: "https://pub-95cf346dcb2f490d8c4145e006736fcf.r2.dev",
     backgroundImage: "Farm Land"
   },
@@ -34,10 +34,10 @@ export const siteConfig = {
     label: "About Us",
     title: "Tiny Forest is a meticulously planned eco-community",
     description: "See how Tiny Forest transforms land into thriving, sustainable forests while helping you grow your investment—step by step.",
-    content:"Tiny Forest located near Panjapur and Archampatti. Focused on a Sustainable Agroforestry Life Style. Its core mission is to promote health and wellness by seamlessly integrating organic farming and the cultivation of native trees to create a harmonious, chemical-free environment. Covering 7 Acres with 27 plots in panjapur and 6 Acres with 20 plots in archmpatti it provides an opportunity to build a farmhouse or regenerative retreat, offering residents a disease-free, less-crowded way of life rooted in pure soil. The project is guided by multidisciplinary experts in agronomy, soil science, and environmental engineering to ensure a sound investment in green living and a sustainable future. multidisciplinary experts in agronomy, soil science, and environmental engineering to ensure a sound investment in green living and a sustainable future.",
+    content:"Nestled near Panjapur and Archampatti, Tiny Forest is more than just a project — it’s a way of life rooted in sustainability, health, and harmony with nature. Spanning 7 acres with 27 Lands in Panjapur and 6 acres with 20 Lands in Archampatti, it offers a rare opportunity to build your farmhouse or regenerative retreat, embracing a disease-free, chemical-free lifestyle in the lap of pure soil. For over 2.5 years, the land has been lovingly nurtured and enriched, not for business, but as our heartfelt way of giving back to nature. More than ten experts from diverse fields have collaborated to bring this living masterpiece to life — where organic farming and the cultivation of native trees blend seamlessly to promote health and wellness. Every tree has been hand-picked from different regions to create a space that breathes purity and balance — a sanctuary where you can escape the chaos, breathe fresh air, and let nature heal you.",
     stats: {
-      number: "100+",
-      text: "Land transaction completed"
+      number: "35+",
+      text: "Hand Picked Trees. From every corner."
     },
   },
 
@@ -52,23 +52,23 @@ export const siteConfig = {
     steps: [
       {
         icon: "CircleDot",
-        title: "Sustainable Eco-Community:",
-        description: "Tiny Forest is a carefully designed ecological neighborhood that perfectly combines organic farming, growing native trees, and a natural lifestyle to establish a balanced and long-lasting environment."
+        title: "Health & Organic Living",
+        description: "Residents get access to chemical-free fruits, vegetables, and medicinal plants. The green environment reduces stress and supports a healthier lifestyle."
       },
       {
         icon: "Trees",
-        title: "Vision and Focus:",
-        description: " The community's goal is to create a Sustainable Agro forestry Community focused on promoting ecological harmony, boosting health, and ensuring a high standard of living for everyone who resides there."
+        title: "Environmental Sustainability",
+        description: "Tiny Forest restores soil, water, and air quality using organic inputs and native trees. It builds a long-term self-sustaining ecosystem that supports biodiversity."
       },
       {
         icon: "Droplets",
-        title: "Health and Wellness Objective:",
-        description: " The main purpose is to improve health and overall well-being by cultivating safe, chemical-free food and building a setting that encourages a disease-free, healthy way of life."
+        title: "Tree and plant diversity",
+        description: "Tiny Forest includes a wide variety of fruit trees, medicinal trees, vegetables, and greens to create a rich, balanced ecosystem. This diversity supports better soil health, attracts pollinators, ensures year-round yield, and strengthens overall biodiversity."
       },
       {
         icon: "TrendingUp",
-        title: "Scale and Layout:",
-        description: "The development covers 6 Acres and contains 20 meticulously planned plots, offering abundant greenery and a living situation intentionally structured to avoid feeling crowded."
+        title: "Scale and Lands",
+        description: "Spread across 7 acres with 27 lands, the project offers a thoughtfully planned environment filled with endless greenery and a lifestyle free from overcrowding. This project is close to our heart — the result of over 2.5 years devoted solely to nurturing the soil."
       }
     ]
   },
@@ -81,59 +81,64 @@ export const siteConfig = {
     steps: [
       {
         icon: "CircleDot",
-        title: "Sustainable Eco-Community:",
-        description: "Its vision is to establish a Sustainable Agroforestry Community dedicated to fostering ecological balance, health, and a high quality of life for its residents."
+        title: "Eco-Friendly Restoration",
+        description: "Tiny Forest helps revive soil fertility, improve water retention, and purify the air through the use of natural and native vegetation. It creates a resilient ecosystem that gradually becomes self-sustaining and rich in biodiversity."
       },
       {
         icon: "Trees",
-        title: "Vision and Focus:",
-        description: " Its vision is to establish a Sustainable Agroforestry Community dedicated to fostering ecological balance, health, and a high quality of life for its residents."
+        title: "Wellness & Natural Living",
+        description: " People can enjoy fresh, chemical-free produce such as fruits, herbs, and vegetables.The lush green environment promotes mental calmness and encourages a healthier daily lifestyle."
       },
       {
         icon: "Droplets",
-        title: "Health and Wellness Objective:",
-        description: " A core objective is to promote health and wellness by producing safe, chemical-free food and cultivating an environment that supports disease-free, healthy living."
+        title: "Rich Flora Variety",
+        description: "The forest contains diverse species of fruit-bearing trees, medicinal plants, leafy greens, and vegetables to form a balanced ecosystem.This plant variety boosts soil quality, attracts beneficial insects, ensures continuous harvests, and enhances overall ecological balance."
       },
       {
         icon: "TrendingUp",
-        title: "Scale and Layout:",
-        description: "The project offers a meticulously planned environment across 7 Acres with 27 Plots, providing endless greenery and a lifestyle specifically designed to be free from overcrowding."
+        title: "Scale and Lands",
+        description: "The development covers 6 Acres and contains 20 planned Lands, offering abundant greenery and a living situation intentionally structured to avoid feeling crowded."
       }
     ]
   },
    {
-    title: "Panjappur Project Development",
+    title: "Soil Preparation — The Heartbeat of Tiny Forest.",
     description:
-      "Watch the transformation of the Panjappur site into a thriving green farm.",
-    youtubeUrl: "https://www.youtube.com/embed/oC4T3Y0hp5c",
+      "Through careful ploughing, biofertilizers, and organic enrichment, we transform barren ground into living, fertile soil that sustains both people and planet.",
+    youtubeUrl: "https://youtu.be/8KShgqofAJI",
     videoThumbnail: "/panjappur_thumb.jpg",
     steps: [
       {
-        icon: "CircleDot",
-        title: "Sustainable Eco-Community:",
-        description: "Tiny Forest is a carefully designed ecological neighborhood that perfectly combines organic farming, growing native trees, and a natural lifestyle to establish a balanced and long-lasting environment."
-      },
-      {
-        icon: "Trees",
-        title: "Vision and Focus:",
-        description: " The community's goal is to create a Sustainable Agro forestry Community focused on promoting ecological harmony, boosting health, and ensuring a high standard of living for everyone who resides there."
+        icon: "Droplets",
+        title: "Deep Ploughing (Every 3 Months)",
+        description: "Every three months, we deeply plough the soil to keep it soft, breathable, and full of life. This process mixes in organic matter, improves water flow, and helps destroy weeds and pest larvae — allowing roots to grow freely and soil microbes to thrive."
       },
       {
         icon: "Droplets",
-        title: "Health and Wellness Objective:",
-        description: " The main purpose is to improve health and overall well-being by cultivating safe, chemical-free food and building a setting that encourages a disease-free, healthy way of life."
+        title: "Cow Dung Enrichment",
+        description: "We infuse 150 tons of native cow dung slurry into the land. Rich in natural microbes and organic carbon, this powerful blend enhances soil fertility, stimulates root health, and builds a strong foundation for sustainable, chemical-free growth."
+      },
+      {
+        icon: "Droplets",
+        title: "Natural Manures & Compost",
+        description: "Each planting pit receives 20 kg goat manure and 10 kg vermicompost — ensuring balanced nutrition, strong growth, and soil vitality."
       },
       {
         icon: "TrendingUp",
-        title: "Scale and Layout:",
-        description: "The development covers 6 Acres and contains 20 meticulously planned plots, offering abundant greenery and a living situation intentionally structured to avoid feeling crowded."
+        title: "Regenerative Green Cycle",
+        description: "Every 6 months, 20 millet and green-manure varieties are grown (not harvested) to fix nitrogen, add carbon, and naturally regenerate the soil."
+      },
+      {
+        icon: "TrendingUp",
+        title: "Organic Boosters & Biofertilizers",
+        description: "We apply Panchagavya, Meen Amilam, EM solutions, and beneficial live cultures like Azospirillum and Phosphobacteria. These organic boosters strengthen root systems, enhance microbial diversity, and create living soil that flourishes season after season."
       }
     ]
   }
 ],
 youtube: {
   channelUrl: "https://www.youtube.com/@TinyForestGardens", // Replace with your real channel link
-  brochureUrl: "https://drive.google.com/uc?export=download&id=14uxeyuOhUoG6HzrW6gOWTv0MwZFtpyoX", 
+  brochureUrl: "https://drive.google.com/uc?export=download&id=17tM9Kz7Va38zUaXjcwFUovtuN_E3zRu8", 
 },
   // Why Choose Section
   whyChoose: {
@@ -141,19 +146,19 @@ youtube: {
     title: "Why Choose Tiny Forest",
     reasons: [
       {
-        title: "Sustainable investment in nature",
+        title: "We say what we do.",
         image: "/sustainable_investment.png"
       },
       {
-        title: "Expert soil and tree care",
+        title: "Health-Focused Community",
         image: "/soil_tree.png"
       },
       {
-        title: "Transparent growth tracking",
+        title: "Peaceful, Pollution-Free Lifestyle",
         image: "/transparent_growth.png"
       },
       {
-        title: "Potential financial returns",
+        title: "Sustainable Agroforestry Design",
         image: "/potential_finance.png"
       }
     ]
@@ -168,14 +173,14 @@ youtube: {
         name: "Ravichandran K",
         role: "Former Lead ICS Engineer",
         image: "/ravichandran.jpeg",
-        quote: "I love this place very much"
+        quote: "The main reason is my desire to move away from city life and come to this kind of lifestyle. I have lived in many cities and many countries. Even though I have lived in big cities around the world, I wanted a life like this, and that is the reason I bought land here"
       },
-      // {
-      //   name: "Senthil Murugan",
-      //   role: "Doctor",
-      //   image: "/picture.png",
-      //   quote: "best place to live"
-      // },
+      {
+        name: "Arul Mohan",
+        role: "PUBLIC RELATION OFFICER",
+        image: "/ArulMohan.jpg",
+        quote: "I’ve been with Tiny Forest Archampatti since 2021, and the growth here is unbelievable. My land has nearly 60 varieties of fruit and medicinal trees,  mango, jamun, sapota, jackfruit, guava, and many more. The farm uses modern drip irrigation fully controlled through a mobile app. Truly, Tiny Forest is one of the best farmland projects in Tamil Nadu, and I am proud to own a land here."
+      },
       // {
       //   name: "Alvanthan",
       //   role: "Scientist",

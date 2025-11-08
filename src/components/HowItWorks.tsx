@@ -39,7 +39,6 @@ export const HowItWorks = () => {
             <div
               aria-hidden="true"
               className="absolute -left-2 -right-10 bottom-6 top-38 sm:bottom-10 sm:-left-4  w-3 sm:w-3 lg:w-8 h-[40%] bg-[#E5B94A] rounded-md"
-            
             />
 
             {/* --- Image --- */}
@@ -53,7 +52,7 @@ export const HowItWorks = () => {
             </div>
 
             {/* --- Stats Badge (already perfect) --- */}
-            <div className="pointer-events-none absolute bottom-3 left-3 select-none rounded-lg bg-primary px-4 py-3 text-white shadow-xl sm:bottom-4 sm:left-4 sm:px-5 sm:py-3.5 md:bottom-6 md:left-6 md:px-6 md:py-4 lg:bottom-8 lg:left-8">
+            <div className="pointer-events-none absolute bottom-0 left-0 select-none rounded-lg bg-primary px-0 py-0 text-white shadow-xl sm:bottom-0 sm:left-0 sm:px-0 sm:py-3.5 md:bottom-0 md:left-0 md:px-6 md:py-4 lg:bottom-0 lg:left-0">
               <div className="flex items-center gap-3 sm:gap-3.5">
                 <Trees className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8" />
                 <div>
