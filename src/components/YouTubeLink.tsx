@@ -1,6 +1,7 @@
 "use client";
 import { siteConfig } from "@/config/siteConfig";
 import { Youtube, Download } from "lucide-react";
+import { useNavigate } from "react-router-dom"; // ✅ React Router navigation
 
 declare global {
   interface Window {
@@ -11,7 +12,8 @@ declare global {
 }
 
 export const YouTubeLink = () => {
-  // 🟢 Brochure Download Event
+  const navigate = useNavigate(); // ✅ use navigate hook
+
   const handleDownloadClick = () => {
     if (typeof window !== "undefined" && window.zaraz?.track) {
       window.zaraz.track("download_brochure", {
@@ -21,9 +23,11 @@ export const YouTubeLink = () => {
     } else {
       console.log("⚠️ Zaraz not yet ready (expected in local dev)");
     }
+
+    // 🔀 Navigate (update path)
+    navigate("/?by=brochure");
   };
 
-  // 🔴 YouTube Visit Event
   const handleYouTubeClick = () => {
     if (typeof window !== "undefined" && window.zaraz?.track) {
       window.zaraz.track("visit_youtube_channel", {
@@ -33,6 +37,9 @@ export const YouTubeLink = () => {
     } else {
       console.log("⚠️ Zaraz not yet ready (expected in local dev)");
     }
+
+    // 🔀 Navigate (update path)
+    navigate("/?by=youtube");
   };
 
   return (

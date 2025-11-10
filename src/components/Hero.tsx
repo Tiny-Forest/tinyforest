@@ -13,39 +13,52 @@ declare global {
 export const Hero = () => {
   // ✅ Brochure Download Tracker
   const handleDownloadClick = () => {
-    if (typeof window !== "undefined" && window.zaraz?.track) {
-      window.zaraz.track("download_brochure", {
-        content_name: "TinyForest_Brochure",
-      });
-      console.log("Zaraz event: download_brochure fired");
-    } else {
-      console.log("Zaraz not yet ready (expected in local dev)");
-    }
+    if (typeof window !== "undefined") {
+      // 🔹 Fire Zaraz event
+      if (window.zaraz?.track) {
+        window.zaraz.track("download_brochure", {
+          content_name: "TinyForest_Brochure",
+        });
+        console.log("✅ Zaraz event: download_brochure fired");
+      } else {
+        console.log("⚠️ Zaraz not ready (expected in local dev)");
+      }
 
-    // ✅ Trigger actual download
-    const link = document.createElement("a");
-    link.href = siteConfig.youtube.brochureUrl;
-    link.download = "TinyForest_Brochure.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+      // 🔹 Update URL (no page reload)
+      const newUrl = `${window.location.pathname}?by=brochure`;
+      window.history.pushState({}, "", newUrl);
+
+      // 🔹 Trigger actual download
+      const link = document.createElement("a");
+      link.href = siteConfig.youtube.brochureUrl;
+      link.download = "TinyForest_Brochure.pdf";
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
   };
 
   // ✅ WhatsApp Click Tracker
   const handleWhatsAppClick = () => {
-    if (typeof window !== "undefined" && window.zaraz?.track) {
-      window.zaraz.track("whatsapp_click", {
-        content_name: "TinyForest_WhatsApp",
-      });
-      console.log("Zaraz event: whatsapp_click fired");
-    } else {
-      console.log("Zaraz not yet ready (expected in local dev)");
-    }
+    if (typeof window !== "undefined") {
+      if (window.zaraz?.track) {
+        window.zaraz.track("whatsapp_click", {
+          content_name: "TinyForest_WhatsApp",
+        });
+        console.log("✅ Zaraz event: whatsapp_click fired");
+      } else {
+        console.log("⚠️ Zaraz not ready (expected in local dev)");
+      }
 
-    // ✅ Open WhatsApp
-    const url = siteConfig.company?.whatsappUrl;
-    if (!url || url === "#") return;
-    window.open(url, "_blank");
+      // 🔹 Update URL for analytics clarity
+      const newUrl = `${window.location.pathname}?by=whatsapp`;
+      window.history.pushState({}, "", newUrl);
+
+      // 🔹 Open WhatsApp
+      const url = siteConfig.company?.whatsappUrl;
+      if (!url || url === "#") return;
+      window.open(url, "_blank");
+    }
   };
 
   return (
@@ -84,7 +97,7 @@ export const Hero = () => {
 
           {/* -------- Buttons -------- */}
           <div className="fixed top-4 right-4 z-50 flex flex-col md:flex-row items-center gap-2 md:gap-3">
-            {/* Download Brochure Button */}
+            {/* Brochure Button */}
             <Button
               onClick={handleDownloadClick}
               className="w-36 md:w-auto px-8 py-1 text-xs md:px-7 md:py-2 md:text-xs bg-accent hover:bg-accent/90 text-foreground font-extralight"
