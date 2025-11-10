@@ -11,25 +11,39 @@ declare global {
 }
 
 export const YouTubeLink = () => {
+  // 🟢 Brochure Download Event
   const handleDownloadClick = () => {
     if (typeof window !== "undefined" && window.zaraz?.track) {
       window.zaraz.track("download_brochure", {
         content_name: "TinyForest_Brochure",
       });
-      console.log("TinyForest");
+      console.log("✅ TinyForest Brochure event fired");
     } else {
-      console.log("Zaraz not yet ready (expected in local dev)");
+      console.log("⚠️ Zaraz not yet ready (expected in local dev)");
+    }
+  };
+
+  // 🔴 YouTube Visit Event
+  const handleYouTubeClick = () => {
+    if (typeof window !== "undefined" && window.zaraz?.track) {
+      window.zaraz.track("visit_youtube_channel", {
+        content_name: "TinyForest_YouTube",
+      });
+      console.log("✅ TinyForest YouTube event fired");
+    } else {
+      console.log("⚠️ Zaraz not yet ready (expected in local dev)");
     }
   };
 
   return (
     <section className="py-8 md:py-12 bg-red-50">
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-center gap-10 text-center">
-        {/* YouTube Button */}
+        {/* ----------- YouTube Button ----------- */}
         <a
           href={siteConfig.youtube.channelUrl}
           target="_blank"
           rel="noopener noreferrer"
+          onClick={handleYouTubeClick}
           className="group inline-flex flex-col items-center justify-center gap-3"
         >
           <div className="relative">
@@ -46,7 +60,7 @@ export const YouTubeLink = () => {
         {/* Divider */}
         <div className="hidden md:block w-[2px] h-20 bg-red-200" />
 
-        {/* Download Brochure */}
+        {/* ----------- Download Brochure Button ----------- */}
         <a
           href={siteConfig.youtube.brochureUrl}
           download="TinyForest_Brochure.pdf"
