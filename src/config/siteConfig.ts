@@ -138,7 +138,7 @@ export const siteConfig = {
 ],
 youtube: {
   channelUrl: "https://www.youtube.com/@TinyForestGardens", // Replace with your real channel link
-  brochureUrl: "https://drive.google.com/uc?export=download&id=17tM9Kz7Va38zUaXjcwFUovtuN_E3zRu8", 
+  brochureUrl: "https://drive.google.com/uc?export=download&id=1aiuqzG1aC6ePTOumjnuLfVRPQYnht3aK", 
 },
   // Why Choose Section
   whyChoose: {
