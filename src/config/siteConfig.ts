@@ -10,13 +10,13 @@ export const siteConfig = {
     tagline: "Invest in Nature, Place that Heals",
     description: "Wake up everyday to fresh air, green views, and a slower, healthier life, rooted in pure soil. Tiny Forest brings this peace directly to you.",
     phone: ["+91 99946 80316, +91 70922 11099"],
-    whatsappUrl: "https://wa.me/9994680316",
+    whatsappUrl: "https://wa.me/+919994680316",
     email: "tinyforestgardens@gmail.com",
     Youtubelink: "https://www.youtube.com/@TinyForestGardens",
     address: {
       line1: "Tiruchirappalli, Tamil Nadu"
     },
-    logo: "/logo.png", 
+    logo: "/logo.png",
   },
 
   // Hero Section
@@ -34,7 +34,7 @@ export const siteConfig = {
     label: "About Us",
     title: "Tiny Forest is a meticulously planned eco-community",
     description: "See how Tiny Forest transforms land into thriving, sustainable forests while helping you grow your investment—step by step.",
-    content:"Nestled near Panjapur and Archampatti, Tiny Forest is more than just a project — it’s a way of life rooted in sustainability, health, and harmony with nature. Spanning 7 acres with 27 Lands in Panjapur and 6 acres with 20 Lands in Archampatti, it offers a rare opportunity to build your farmhouse or regenerative retreat, embracing a disease-free, chemical-free lifestyle in the lap of pure soil. For over 2.5 years, the land has been lovingly nurtured and enriched, not for business, but as our heartfelt way of giving back to nature. More than ten experts from diverse fields have collaborated to bring this living masterpiece to life — where organic farming and the cultivation of native trees blend seamlessly to promote health and wellness. Every tree has been hand-picked from different regions to create a space that breathes purity and balance — a sanctuary where you can escape the chaos, breathe fresh air, and let nature heal you.",
+    content: "Nestled near Panjapur and Archampatti, Tiny Forest is more than just a project — it’s a way of life rooted in sustainability, health, and harmony with nature. Spanning 7 acres with 27 Lands in Panjapur and 6 acres with 20 Lands in Archampatti, it offers a rare opportunity to build your farmhouse or regenerative retreat, embracing a disease-free, chemical-free lifestyle in the lap of pure soil. For over 2.5 years, the land has been lovingly nurtured and enriched, not for business, but as our heartfelt way of giving back to nature. More than ten experts from diverse fields have collaborated to bring this living masterpiece to life — where organic farming and the cultivation of native trees blend seamlessly to promote health and wellness. Every tree has been hand-picked from different regions to create a space that breathes purity and balance — a sanctuary where you can escape the chaos, breathe fresh air, and let nature heal you.",
     stats: {
       number: "35+",
       text: "Hand Picked Trees. From every corner."
@@ -42,104 +42,104 @@ export const siteConfig = {
   },
 
   // Video Sections
- videoSections: [
-  {
-    title: "Panjappur Project Development",
-    description:
-      "Watch the transformation of the Panjappur site into a thriving green farm.",
-    youtubeUrl: "https://www.youtube.com/embed/oC4T3Y0hp5c",
-    videoThumbnail: "/panjappur_thumb.jpg",
-    steps: [
-      {
-        icon: "CircleDot",
-        title: "Health & Organic Living",
-        description: "Residents get access to chemical-free fruits, vegetables, and medicinal plants. The green environment reduces stress and supports a healthier lifestyle."
-      },
-      {
-        icon: "Trees",
-        title: "Environmental Sustainability",
-        description: "Tiny Forest restores soil, water, and air quality using organic inputs and native trees. It builds a long-term self-sustaining ecosystem that supports biodiversity."
-      },
-      {
-        icon: "Droplets",
-        title: "Tree and plant diversity",
-        description: "Tiny Forest includes a wide variety of fruit trees, medicinal trees, vegetables, and greens to create a rich, balanced ecosystem. This diversity supports better soil health, attracts pollinators, ensures year-round yield, and strengthens overall biodiversity."
-      },
-      {
-        icon: "TrendingUp",
-        title: "Scale and Lands",
-        description: "Spread across 7 acres with 27 lands, the project offers a thoughtfully planned environment filled with endless greenery and a lifestyle free from overcrowding. This project is close to our heart — the result of over 2.5 years devoted solely to nurturing the soil."
-      }
-    ]
+  videoSections: [
+    {
+      title: "Panjappur Project Development",
+      description:
+        "Watch the transformation of the Panjappur site into a thriving green farm.",
+      youtubeUrl: "https://www.youtube.com/embed/oC4T3Y0hp5c",
+      videoThumbnail: "/panjappur_thumb.jpg",
+      steps: [
+        {
+          icon: "CircleDot",
+          title: "Health & Organic Living",
+          description: "Residents get access to chemical-free fruits, vegetables, and medicinal plants. The green environment reduces stress and supports a healthier lifestyle."
+        },
+        {
+          icon: "Trees",
+          title: "Environmental Sustainability",
+          description: "Tiny Forest restores soil, water, and air quality using organic inputs and native trees. It builds a long-term self-sustaining ecosystem that supports biodiversity."
+        },
+        {
+          icon: "Droplets",
+          title: "Tree and plant diversity",
+          description: "Tiny Forest includes a wide variety of fruit trees, medicinal trees, vegetables, and greens to create a rich, balanced ecosystem. This diversity supports better soil health, attracts pollinators, ensures year-round yield, and strengthens overall biodiversity."
+        },
+        {
+          icon: "TrendingUp",
+          title: "Scale and Lands",
+          description: "Spread across 7 acres with 27 lands, the project offers a thoughtfully planned environment filled with endless greenery and a lifestyle free from overcrowding. This project is close to our heart — the result of over 2.5 years devoted solely to nurturing the soil."
+        }
+      ]
+    },
+    {
+      title: "Archampatti Site Overview",
+      description:
+        "See how Tiny Forest developed its Archampatti farmland into a lush ecosystem.",
+      youtubeUrl: "https://www.youtube.com/embed/5-H1UcHXJcw",
+      videoThumbnail: "/archampatti_thumb.jpg",
+      steps: [
+        {
+          icon: "CircleDot",
+          title: "Eco-Friendly Restoration",
+          description: "Tiny Forest helps revive soil fertility, improve water retention, and purify the air through the use of natural and native vegetation. It creates a resilient ecosystem that gradually becomes self-sustaining and rich in biodiversity."
+        },
+        {
+          icon: "Trees",
+          title: "Wellness & Natural Living",
+          description: " People can enjoy fresh, chemical-free produce such as fruits, herbs, and vegetables.The lush green environment promotes mental calmness and encourages a healthier daily lifestyle."
+        },
+        {
+          icon: "Droplets",
+          title: "Rich Flora Variety",
+          description: "The forest contains diverse species of fruit-bearing trees, medicinal plants, leafy greens, and vegetables to form a balanced ecosystem.This plant variety boosts soil quality, attracts beneficial insects, ensures continuous harvests, and enhances overall ecological balance."
+        },
+        {
+          icon: "TrendingUp",
+          title: "Scale and Lands",
+          description: "The development covers 6 Acres and contains 20 planned Lands, offering abundant greenery and a living situation intentionally structured to avoid feeling crowded."
+        }
+      ]
+    },
+    {
+      title: "Soil Preparation — The Heartbeat of Tiny Forest.",
+      description:
+        "Through careful ploughing, biofertilizers, and organic enrichment, we transform barren ground into living, fertile soil that sustains both people and planet.",
+      youtubeUrl: "https://youtu.be/8KShgqofAJI",
+      videoThumbnail: "/panjappur_thumb.jpg",
+      steps: [
+        {
+          icon: "Droplets",
+          title: "Deep Ploughing (Every 3 Months)",
+          description: "Every three months, we deeply plough the soil to keep it soft, breathable, and full of life. This process mixes in organic matter, improves water flow, and helps destroy weeds and pest larvae — allowing roots to grow freely and soil microbes to thrive."
+        },
+        {
+          icon: "Droplets",
+          title: "Cow Dung Enrichment",
+          description: "We infuse 150 tons of native cow dung slurry into the land. Rich in natural microbes and organic carbon, this powerful blend enhances soil fertility, stimulates root health, and builds a strong foundation for sustainable, chemical-free growth."
+        },
+        {
+          icon: "Droplets",
+          title: "Natural Manures & Compost",
+          description: "Each planting pit receives 20 kg goat manure and 10 kg vermicompost — ensuring balanced nutrition, strong growth, and soil vitality."
+        },
+        {
+          icon: "TrendingUp",
+          title: "Regenerative Green Cycle",
+          description: "Every 6 months, 20 millet and green-manure varieties are grown (not harvested) to fix nitrogen, add carbon, and naturally regenerate the soil."
+        },
+        {
+          icon: "TrendingUp",
+          title: "Organic Boosters & Biofertilizers",
+          description: "We apply Panchagavya, Meen Amilam, EM solutions, and beneficial live cultures like Azospirillum and Phosphobacteria. These organic boosters strengthen root systems, enhance microbial diversity, and create living soil that flourishes season after season."
+        }
+      ]
+    }
+  ],
+  youtube: {
+    channelUrl: "https://www.youtube.com/@TinyForestGardens", // Replace with your real channel link
+    brochureUrl: "https://drive.google.com/uc?export=download&id=1aiuqzG1aC6ePTOumjnuLfVRPQYnht3aK",
   },
-  {
-    title: "Archampatti Site Overview",
-    description:
-      "See how Tiny Forest developed its Archampatti farmland into a lush ecosystem.",
-    youtubeUrl: "https://www.youtube.com/embed/5-H1UcHXJcw",
-    videoThumbnail: "/archampatti_thumb.jpg",
-    steps: [
-      {
-        icon: "CircleDot",
-        title: "Eco-Friendly Restoration",
-        description: "Tiny Forest helps revive soil fertility, improve water retention, and purify the air through the use of natural and native vegetation. It creates a resilient ecosystem that gradually becomes self-sustaining and rich in biodiversity."
-      },
-      {
-        icon: "Trees",
-        title: "Wellness & Natural Living",
-        description: " People can enjoy fresh, chemical-free produce such as fruits, herbs, and vegetables.The lush green environment promotes mental calmness and encourages a healthier daily lifestyle."
-      },
-      {
-        icon: "Droplets",
-        title: "Rich Flora Variety",
-        description: "The forest contains diverse species of fruit-bearing trees, medicinal plants, leafy greens, and vegetables to form a balanced ecosystem.This plant variety boosts soil quality, attracts beneficial insects, ensures continuous harvests, and enhances overall ecological balance."
-      },
-      {
-        icon: "TrendingUp",
-        title: "Scale and Lands",
-        description: "The development covers 6 Acres and contains 20 planned Lands, offering abundant greenery and a living situation intentionally structured to avoid feeling crowded."
-      }
-    ]
-  },
-   {
-    title: "Soil Preparation — The Heartbeat of Tiny Forest.",
-    description:
-      "Through careful ploughing, biofertilizers, and organic enrichment, we transform barren ground into living, fertile soil that sustains both people and planet.",
-    youtubeUrl: "https://youtu.be/8KShgqofAJI",
-    videoThumbnail: "/panjappur_thumb.jpg",
-    steps: [
-      {
-        icon: "Droplets",
-        title: "Deep Ploughing (Every 3 Months)",
-        description: "Every three months, we deeply plough the soil to keep it soft, breathable, and full of life. This process mixes in organic matter, improves water flow, and helps destroy weeds and pest larvae — allowing roots to grow freely and soil microbes to thrive."
-      },
-      {
-        icon: "Droplets",
-        title: "Cow Dung Enrichment",
-        description: "We infuse 150 tons of native cow dung slurry into the land. Rich in natural microbes and organic carbon, this powerful blend enhances soil fertility, stimulates root health, and builds a strong foundation for sustainable, chemical-free growth."
-      },
-      {
-        icon: "Droplets",
-        title: "Natural Manures & Compost",
-        description: "Each planting pit receives 20 kg goat manure and 10 kg vermicompost — ensuring balanced nutrition, strong growth, and soil vitality."
-      },
-      {
-        icon: "TrendingUp",
-        title: "Regenerative Green Cycle",
-        description: "Every 6 months, 20 millet and green-manure varieties are grown (not harvested) to fix nitrogen, add carbon, and naturally regenerate the soil."
-      },
-      {
-        icon: "TrendingUp",
-        title: "Organic Boosters & Biofertilizers",
-        description: "We apply Panchagavya, Meen Amilam, EM solutions, and beneficial live cultures like Azospirillum and Phosphobacteria. These organic boosters strengthen root systems, enhance microbial diversity, and create living soil that flourishes season after season."
-      }
-    ]
-  }
-],
-youtube: {
-  channelUrl: "https://www.youtube.com/@TinyForestGardens", // Replace with your real channel link
-  brochureUrl: "https://drive.google.com/uc?export=download&id=1aiuqzG1aC6ePTOumjnuLfVRPQYnht3aK", 
-},
   // Why Choose Section
   whyChoose: {
     label: "IMPORTANT NOTE",
@@ -211,7 +211,7 @@ youtube: {
       }
     ]
   },
-  
+
   // Tree Selection
   trees: {
     label: "35+ TREES",
@@ -279,7 +279,7 @@ youtube: {
       },
       {
         name: "Soursop Tree",
-        description:"Soursop trees bear nutrient-packed fruits known for their medicinal benefits. They enrich the ecosystem by attracting birds and pollinators.",
+        description: "Soursop trees bear nutrient-packed fruits known for their medicinal benefits. They enrich the ecosystem by attracting birds and pollinators.",
         image: "/trees/soursop.png"
       },
       {
@@ -344,7 +344,7 @@ youtube: {
       },
       {
         name: "Jasmine",
-        description:"Their soothing fragrance calms the mind, refreshes the home, reduces stress, and promotes sleep. Used traditionally for cooling and relieving headaches.",
+        description: "Their soothing fragrance calms the mind, refreshes the home, reduces stress, and promotes sleep. Used traditionally for cooling and relieving headaches.",
         image: "/trees/jasmine.png"
       },
       {
@@ -409,7 +409,7 @@ youtube: {
       },
       {
         name: "Mint",
-        description:"Menthol aids digestion, reducing nausea, bloating, and gas. Its fresh aroma relieves headaches and combats bad breath.",
+        description: "Menthol aids digestion, reducing nausea, bloating, and gas. Its fresh aroma relieves headaches and combats bad breath.",
         image: "/trees/mint.png"
       }
     ]
